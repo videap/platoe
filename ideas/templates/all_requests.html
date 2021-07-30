@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    
+    <div class="container text-center text-secondary">
+        <div class="row">
+            <div class="col my-3">
+                <h2>All Requests</h2>
+                ________
+            </div>
+        </div>
+    </div>
+
+    <div id="requests_app" class="text-secondary">
+    </div>
+    <script type="text/babel">
+        var username = "{{ request.user.username }}"
+        ReactDOM.render(<All_Requests username={username}/>, document.querySelector("#requests_app"));
+    </script>
+    
+
+
+{% endblock %}

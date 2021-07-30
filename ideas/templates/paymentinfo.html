@@ -1,0 +1,146 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <script src="https://js.stripe.com/v3/"></script>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>Select below your activities:</h3>
+            </div>
+        </div>
+        {% if banking_acceptance %}
+            {% if not onboard_complete %}
+            <div class="row my-3">
+                <div class="col-12">
+                    <a href="{% url 'stripe_create_account' %}"><btn class="btn btn-info" id="change_bank_btn">Add Banking Info</btn></a>
+                </div>
+            </div>
+            {% else %}
+                <div class="row my-3">
+                    <div class="col-12">
+                        <a href="{% url 'stripe_update_account' %}"><btn class="btn btn-info" id="change_bank_btn">Banking Info</btn></a>
+                    </div>
+                </div>
+            {% endif %}
+        {% endif %}
+        {% if payment_acceptance %}
+            <div class="row">
+                <div class="col-12 col-lg-2 my-3">
+                    <btn class="btn btn-info" id="change_pay_btn">Payment Methods</btn>
+                </div>
+                <div class="col my-3" id="select_credit_card" hidden></div>
+            </div>
+
+
+            <script type="text/babel">
+                ReactDOM.render(<NewCardParent user_id="{{ request.user.id }}"/>, document.getElementById("select_credit_card"));
+            </script>
+        {% endif %}
+        {% if not payment_acceptance %}
+            <div class="row my-3">
+                <div class="col form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="check_buy_ideas">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        I wish to buy ideas.
+                    </label>
+                </div>
+            </div>
+
+            <div class="row my-3">
+                <div class="col-12">
+                    <btn class="btn btn-dark" id="accept_btn_pay">Accept</btn>
+                </div>
+            </div>
+
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    document.getElementById("accept_btn_pay").addEventListener("click", (event) => {
+                        if (document.getElementById("check_buy_ideas").checked == true) {
+                        accept_btn_pay();
+                        }
+                    });
+                });
+            </script>
+        
+        {% endif %}
+        {% if not banking_acceptance %}
+            <div class="row my-3">
+                <div class="col form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="check_sell_ideas">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        I wish to sell ideas.
+                    </label>
+                </div>
+            </div>
+
+            <div class="row my-3">
+                <div class="col-12">
+                    <btn class="btn btn-dark" id="accept_btn_sell">Accept</btn>
+                </div>
+            </div>
+
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    document.getElementById("accept_btn_sell").addEventListener("click", (event) => {
+                        if (document.getElementById("check_sell_ideas").checked == true) {
+                        accept_btn_bank();
+                        }
+                    });
+                });
+            </script>
+
+            
+        {% endif %}
+    </div>
+
+
+    <script>
+
+        async function accept_btn_pay() {
+
+            // create stripe customer for this user
+            await fetch("/stripe/create_customer", {"Access-Control-Allow-Origin": "*"})
+            .then(response => { 
+                if (response.status===200) {
+                    console.log("Stripe Customer Created")
+                    
+                    // submit payment acceptance
+                    fetch("/api/accept_payment")
+                    .then(response => { 
+                        if (response.status===200) {
+                            console.log("Acceptance Submitted")
+                            window.location.reload();
+                        } else if (response.status===500) {
+                            throw new Error('Error on Submission');
+                        }
+                    })
+                } else {
+                    throw new Error('Error on Stripe Customer Creation');
+                }
+            })
+            .catch((error) => {
+            console.error('Error:', error);
+            });
+        }
+                
+        function accept_btn_bank(){
+                
+            fetch("/api/accept_banking")
+            .then(response => response.json())
+            .then(data => {
+            console.log('Success:', data);
+            })
+            .then( ()=> window.location.reload())
+            .catch((error) => {
+            console.error('Error:', error);
+            });
+        }
+    </script>
+
+
+
+    
+
+{% endblock %}

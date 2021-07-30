@@ -1,0 +1,5 @@
+django-phonenumber-field[phonenumberslite]
+Pillow
+stripe
+django-model-utils
+cryptography

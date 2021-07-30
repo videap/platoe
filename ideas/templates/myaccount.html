@@ -1,0 +1,101 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <br>
+    <div class="container text-info">
+
+        <h3>User Information:</h3>
+
+        {% if message %}
+            The following errors were found:
+            <div>
+                {{ message }}
+            </div>
+        {% endif %}
+        
+        {% if pwd_message %}
+            <div><ul>
+                {% for msg in pwd_message %}
+                    <li>{{ msg }}</li>
+                {% endfor %}
+            </ul></div>
+        {% endif %}
+
+
+        <div class="form-row mb-2">
+            <div class="col">
+                {% if user_info.image %}
+                    <img src={{user_info.image.url}} id="myaccount_image">
+                {% else %}
+                    <img src="/media/profile_images/avatar.jpg" id="myaccount_image">
+                {% endif %}
+            </div>
+        </div>
+
+
+    
+        <form action="{% url 'myaccount' %}" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="form-row mb-2">
+                <div class="col">
+
+                    <div class="custom-file">
+                        <input id="customFile" class="custom-file-input" type="file" name="image" placeholder="Choose File">                        
+                        <label id="customFileLabel" class="custom-file-label" for="customFile">Choose File</label>
+                    </div>
+
+
+                </div>
+            </div>
+  
+
+
+            <div class="form-row mb-2">
+                <div class="col">
+                    First Name:<input class="form-control border-info"  type="text" name="first_name" maxlength="24" value="{{ user_info.first_name }}">
+                </div>
+                <div class="col">
+                    Last Name:<input class="form-control border-info"  type="text" name="last_name" maxlength="24" value="{{ user_info.last_name }}">
+                </div>
+            </div>
+
+            <div class="form-row mb-2">
+                <div class="col">
+                    Email Address:<input class="form-control border-info" type="email" name="email" placeholder="mail@example.com" maxlength="256" value="{{ user_info.email }}">
+                </div>
+                <div class="col">
+                    Username: <input class="form-control border-info"  type="text" name="username" maxlength="24" value="{{ user_info.username }}">
+                </div>
+            </div>
+            <div class="form-row mb-2">
+                <div class="col">
+                    Telephone: <input class="form-control border-info"  type="tel" name="phone" placeholder="Ex. +41524204242" value="{{ user_info.phone }}">
+                </div>
+                <div class="col">
+                    Birth Date: <input class="form-control border-info"  type="date" name="birthdate" placeholder="Birth Date" value="{{ user_info.birthdate }}">
+                </div>
+            </div>        
+            <div class="form-row mb-2">
+                <div class="col">
+                    <input class="btn btn-info horiz_expand" type="submit" value="Update Information">
+                    <a href="{% url 'change_password' %}"><btn class="btn btn-info horiz_expand">Change Password</btn></a>
+                </div>
+                <div class="col text-right">
+                    <a href="{% url 'paymentinfo' %}"><btn class="btn btn-outline-danger vert_expand horiz_expand"><span class="vert_expand">Add/Change Payment Information</span></btn></a>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    <script>
+        document.querySelector("#customFile").onchange = function(){
+            document.getElementById("customFileLabel").innerHTML = this.files[0].name;
+        }
+    </script>
+
+
+
+    
+
+{% endblock %}
