@@ -135,6 +135,6 @@ EMAIL_PORT = '1025'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 #GLOBAL VARIABLES
-STRIPE_PUBLISHABLE_KEY = 'pk_test_51I1kZwF2Gy9eFZtoKSGPFTaP5BqN2Kg6Lt0UhJfAsCxa3aW0uwWuKvQuzYdFAiNks7UyVgcDVgOt83uWZosCx95o00H2ohFmeq'
-STRIPE_SECRET_KEY = 'sk_test_51I1kZwF2Gy9eFZtoByYSrv5tXY3UhTnxil9Xkl9HGmMSIoIfEUkU2fUCtntwDepyhPdaq198Dtk86EFcCViPKKA200SB1PpAtJ'
+STRIPE_PUBLISHABLE_KEY = 'pk_test_..................'
+STRIPE_SECRET_KEY = 'sk_test_.....................'
 APP_FEE = 0.2
