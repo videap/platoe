@@ -10,7 +10,6 @@ node("dev.platoe.io"){
             sh '''
             echo "This is the current directory:"
             echo "${PWD}"
-            date >> last_login
             '''
         }
     }
