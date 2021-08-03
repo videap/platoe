@@ -1,13 +1,17 @@
 pipeline {
-    agent("dev.platoe.io")
-    stage("PingSelf") {
-        steps {
-            sh "ping dev.platoe.io -c 1"
+    agent any
+    node("dev.platoe.io"){
+
+        stage("PingSelf") {
+            steps {
+                sh "ping dev.platoe.io -c 1"
+            }
         }
-    stage("LastLogin")
-        steps{
-            sh "cd /home/ubuntu"
-            sh "date >> last_login"
+        stage("LastLogin")
+            steps{
+                sh "cd /home/ubuntu"
+                sh "date >> last_login"
+            }
         }
     }
 }
