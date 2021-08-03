@@ -10,7 +10,6 @@ pipeline {
 		    steps{
 			    sshagent(credentials:['platoe-ssh']) {
                 sh 'ssh ubuntu@platoe.io -T'
-                sh 'touch last_login'
                 sh 'date >> last_login'
                 }
 		    }
