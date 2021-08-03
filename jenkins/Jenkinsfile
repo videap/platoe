@@ -7,7 +7,7 @@ pipeline {
                 sh "ping dev.platoe.io -c 1"
             }
         }
-        stage("LastLogin")
+        stage("LastLogin"){
             steps{
                 sh "cd /home/ubuntu"
                 sh "date >> last_login"
