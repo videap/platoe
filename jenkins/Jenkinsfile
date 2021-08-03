@@ -9,7 +9,6 @@ node("dev.platoe.io"){
         steps{
             sh '''
             echo "This is the current directory:"
-            echo "${PWD}"
             '''
         }
     }
