@@ -1,5 +1,5 @@
-node("dev.platoe.io"){
-    agent any
+pipeline{
+    agent{ node("dev.platoe.io") }
     stage("PingSelf") {
         steps {
             sh "ping dev.platoe.io -c 1"
@@ -9,6 +9,8 @@ node("dev.platoe.io"){
         steps{
             sh '''
             echo "This is the current directory:"
+            $PWD
+            date >> last_login
             '''
         }
     }
