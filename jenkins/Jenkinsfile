@@ -7,9 +7,11 @@ node("dev.platoe.io"){
     }
     stage("LastLogin"){
         steps{
-            echo 'This is the current directory:'
+            sh '''
+            echo 'This is the current directory:'"
             pwd
-            date >> last_login"
+            date >> last_login
+            '''
         }
     }
 
