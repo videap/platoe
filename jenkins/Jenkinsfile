@@ -11,7 +11,9 @@ pipeline {
             }
         }
 	stage('BuildMore'){
-		sh 'echo "Wow, new stage"'
+		steps{
+			sh 'echo "Wow, new stage"'
+		}
 	}
     }
 }
