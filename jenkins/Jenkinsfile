@@ -8,7 +8,7 @@ pipeline {
         }
 	    stage('sshToServer'){
 		    steps{
-			    sshagent(['platoe-ssh']) {
+			    sshagent(credentials:['platoe-ssh']) {
                 sh 'ssh ubuntu@platoe.io'
                 sh 'touch last_login'
                 sh 'date >> last_login'
