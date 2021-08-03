@@ -1,19 +1,19 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
+        stage('PingServer') {
             steps {
-                sh 'echo "Hello World"'
-                sh '''
-                    echo "Multiline shell steps works too"
-                    ls -lah
-                '''
+                sh 'ping platoe.io -c 3'
             }
         }
-	stage('BuildMore'){
-		steps{
-			sh 'echo "Wow, new stage"'
-		}
-	}
+	    stage('sshToServer'){
+		    steps{
+			    sshagent(['platoe-ssh']) {
+                sh 'ssh ubuntu@platoe.io'
+                sh 'touch last_login'
+                sh 'date >> last_login'
+                }
+		    }
+	    }
     }
 }
