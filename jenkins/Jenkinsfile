@@ -1,18 +1,19 @@
 pipeline{
     agent{ node("dev.platoe.io") }
-    stage("PingSelf") {
-        steps {
-            sh "ping dev.platoe.io -c 1"
+    stages{
+        stage("PingSelf") {
+            steps {
+                sh "ping dev.platoe.io -c 1"
+            }
+        }
+        stage("LastLogin"){
+            steps{
+                sh '''
+                echo "This is the current directory:"
+                $PWD
+                date >> last_login
+                '''
+            }
         }
     }
-    stage("LastLogin"){
-        steps{
-            sh '''
-            echo "This is the current directory:"
-            $PWD
-            date >> last_login
-            '''
-        }
-    }
-
 }
