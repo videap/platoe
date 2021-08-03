@@ -9,6 +9,7 @@ pipeline {
 	    stage('sshToServer'){
 		    steps{
 			    sshagent(credentials:['platoe-ssh']) {
+                sh 'ssh -o StrictHostKeyChecking=no ubuntu@plato.io uptime'
                 sh 'ssh ubuntu@platoe.io'
                 sh 'touch last_login'
                 sh 'date >> last_login'
