@@ -9,7 +9,7 @@ node("dev.platoe.io"){
         steps{
             sh '''
             echo 'This is the current directory:'"
-            pwd
+            $pwd
             date >> last_login
             '''
         }
