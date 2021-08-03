@@ -1,18 +1,14 @@
 pipeline {
-    agent any
-    stages {
-        stage('PingServer') {
+    node("dev.platoe.io"){
+        stage("PingSelf") {
             steps {
-                sh 'ping platoe.io -c 3'
+                sh "ping dev.platoe.io -c 1"
+            }
+        stage("LastLogin")
+            steps{
+                sh "cd /home/ubuntu"
+                sh "date >> last_login"
             }
         }
-	    stage('sshToServer'){
-		    steps{
-			    sshagent(credentials:['platoe-ssh']) {
-                sh 'ssh ubuntu@platoe.io -T'
-                sh 'date >> last_login'
-                }
-		    }
-	    }
     }
 }
