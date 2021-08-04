@@ -1,5 +1,5 @@
 pipeline{
-    agent{ name 'dev.platoe.io' }
+    agent{ node("dev.platoe.io") }
     stages{
         stage("PingSelf") {
             steps {
