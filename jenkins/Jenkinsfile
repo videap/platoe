@@ -14,5 +14,12 @@ pipeline{
                 '''
             }
         }
+        stage("Git"){
+            steps{
+                git credentialsId: 'jenkins-webhook',
+                url: 'https://github.com/videap/platoe.git',
+                branch: 'dev'
+            }
+        }
     }
 }
