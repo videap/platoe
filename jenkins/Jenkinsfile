@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("PingSelf") {
             steps {
-                sh "ping dev.platoe.io -c 1"
+                sh "129.159.51.19 -c 1"
             }
         }
         stage("LastLogin"){
