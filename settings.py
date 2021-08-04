@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
 from pathlib import Path
+from posix import environ
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent   
@@ -136,5 +137,6 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 #GLOBAL VARIABLES
 STRIPE_PUBLISHABLE_KEY = os.environ.get('STRIPE_PUBLISHABLE_KEY', 'pk_test_..................')
-STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY', 'sk_test_.....................'')
+STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY', 'sk_test_.....................')
+WEBHOOK_SECRET= os.environ.get('WEBHOOK_SECRET', "whsec_CrUDjJiA3kCvaHQKQgAf6iVWd7JGWAok") #This is the local computer secret
 APP_FEE = 0.2

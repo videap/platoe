@@ -111,7 +111,7 @@ def stripe_webhook_recieved(request):
     if request.method == "POST":
 
         stripe.api_key = settings.STRIPE_SECRET_KEY
-        webhook_secret = "whsec_CrUDjJiA3kCvaHQKQgAf6iVWd7JGWAok"
+        webhook_secret = settings.WEBHOOK_SECRET
 
         request_data = request.POST
         signature = request.META['HTTP_STRIPE_SIGNATURE']
