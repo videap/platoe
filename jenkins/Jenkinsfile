@@ -11,6 +11,7 @@ pipeline{
                 sh '''
                 echo "This is the current directory:"
                 pwd
+                '''
             }
         }
     }
