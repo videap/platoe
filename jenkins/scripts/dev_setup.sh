@@ -45,7 +45,6 @@ else
 fi
 
 
-mkdir ~/dev.platoe/platoe
 cd ~/dev.platoe/platoe
 virtualenv venv-dev
 activate () {

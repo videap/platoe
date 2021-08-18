@@ -6,28 +6,21 @@ pipeline{
                 sh "ping dev.platoe.io -c 1"
             }
         }
-        stage("CurrentDirectory"){
-            steps{
-                sh '''
-                echo "This is the current directory:"
-                pwd
-                echo "The user directory is: ${HOME}"
-                '''
-            }
-        }
         stage("Git"){
             steps{
+                sh '''
+                cd ${HOME}
+                echo "Current Directory: ${PWD}"
+                mkdir -p ${HOME}/dev.platoe
+                '''
                 git credentialsId: 'jenkins-webhook',
                 url: 'https://github.com/videap/platoe.git',
                 branch: 'dev'
             }
         }
-        stage("InstallPackages"){
+        stage("RunScript"){
             steps{
-                sh '''
-                echo "This is the current directory:"
-                pwd
-                '''
+                sh '${HOME}/dev.platoe/platoe/jenkins/scripts/dev_setup.sh'
             }
         }
     }
