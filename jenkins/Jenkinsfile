@@ -11,6 +11,7 @@ pipeline{
                 sh '''
                 echo "This is the current directory:"
                 pwd
+                echo "The user directory is: ${HOME}"
                 '''
             }
         }
@@ -19,6 +20,14 @@ pipeline{
                 git credentialsId: 'jenkins-webhook',
                 url: 'https://github.com/videap/platoe.git',
                 branch: 'dev'
+            }
+        }
+        stage("InstallPackages"){
+            steps{
+                sh '''
+                echo "This is the current directory:"
+                pwd
+                '''
             }
         }
     }

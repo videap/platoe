@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 import os
 from pathlib import Path
 
+print("Starting Developer Settings")
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent   
 
@@ -25,7 +27,7 @@ SECRET_KEY = 'ks_r!6l3^26_-st%()#xjefl@o+^4)vntw()9vyuv6yzt1!g6x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['dev.platoe.io']
 
 AUTH_USER_MODEL = "ideas.User"
 

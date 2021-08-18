@@ -14,7 +14,7 @@ from pathlib import Path
 from posix import environ
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent   
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # Quick-start development settings - unsuitable for production
@@ -26,7 +26,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY','ks_r!6l3^26_-st%()#xjefl@o+^4)vntw()9v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+
+ALLOWED_HOSTS = ['dev.platoe.io', '*']
 
 AUTH_USER_MODEL = "ideas.User"
 
@@ -140,3 +141,6 @@ STRIPE_PUBLISHABLE_KEY = os.environ.get('STRIPE_PUBLISHABLE_KEY', 'pk_test_.....
 STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY', 'sk_test_.....................')
 WEBHOOK_SECRET= os.environ.get('WEBHOOK_SECRET', "whsec_CrUDjJiA3kCvaHQKQgAf6iVWd7JGWAok") #This is the local computer secret
 APP_FEE = 0.2
+
+#FOR DJANGO 3.2
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
