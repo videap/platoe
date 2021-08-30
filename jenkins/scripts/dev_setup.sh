@@ -45,7 +45,7 @@ else
 fi
 
 
-
+source ~/.profile
 virtualenv venv-dev
 activate () {
     . $PWD/venv-dev/bin/activate
