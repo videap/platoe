@@ -8,11 +8,7 @@ pipeline{
         }
         stage("Git"){
             steps{
-                sh '''
-                cd ${HOME}
-                echo "Current Directory: ${PWD}"
-                mkdir -p ${HOME}/dev.platoe
-                '''
+  
                 git credentialsId: 'jenkins-webhook',
                 url: 'https://github.com/videap/platoe.git',
                 branch: 'dev'
@@ -20,7 +16,8 @@ pipeline{
         }
         stage("RunScript"){
             steps{
-                sh '${HOME}/dev.platoe/platoe/jenkins/scripts/dev_setup.sh'
+                sh 'chmod +x ${PWD}/jenkins/scripts/dev_setup.sh'
+                sh '${PWD}/jenkins/scripts/dev_setup.sh'
             }
         }
     }

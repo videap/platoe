@@ -45,7 +45,7 @@ else
 fi
 
 
-cd ~/dev.platoe/platoe
+
 virtualenv venv-dev
 activate () {
     . $PWD/venv-dev/bin/activate
@@ -58,5 +58,5 @@ echo "Required packages installed"
 echo ""
 echo ""
 echo ""
-echo "Platoe is deployed in development"
+echo "Platoe is deployed in development. You can start your service now."
 
