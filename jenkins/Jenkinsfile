@@ -11,19 +11,13 @@ pipeline{
   
                 git credentialsId: 'jenkins-webhook',
                 url: 'https://github.com/videap/platoe.git',
-                branch: 'dev'
+                branch: 'test'
             }
         }
         stage("RunScript"){
             steps{
                 sh 'chmod +x ${PWD}/jenkins/scripts/dev_setup.sh'
                 sh '${PWD}/jenkins/scripts/dev_setup.sh'
-            }
-        }
-        stage("RunTestServer"){
-            steps{
-                sh 'source venv-dev/bin/activate'
-                sh 'python manage.py runserver 0.0.0.0:8000 &'
             }
         }
     }
