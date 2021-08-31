@@ -1,3 +1,5 @@
+pymysql
+mysqlclient
 django-phonenumber-field[phonenumberslite]
 Pillow
 stripe
