@@ -319,7 +319,7 @@ def stripe_create_intent(request, idea_id):
 @csrf_exempt
 def stripe_webhook(request):
     response = stripe_webhook_recieved(request)
-    return response
+    return HttpResponse(response)
 
 #view to help developers
 def showresponse(request):

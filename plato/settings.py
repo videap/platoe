@@ -24,10 +24,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'ks_r!6l3^26_-st%()#xjefl@o+^4)vntw()9vyuv6yzt1!g6x'
 
+#DEVELOPER ENVIRONMENT
+WEBHOOK_SECRET = 'whsec_CrUDjJiA3kCvaHQKQgAf6iVWd7JGWAok'
+
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['dev.platoe.io']
+ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = "ideas.User"
 
