@@ -27,7 +27,7 @@ SECRET_KEY = 'ks_r!6l3^26_-st%()#xjefl@o+^4)vntw()9vyuv6yzt1!g6x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['dev.platoe.io']
+ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = "ideas.User"
 
