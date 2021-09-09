@@ -23,8 +23,8 @@ WORKDIR /platoe/
 
 RUN pip install -r requirements.txt
 
-USER user
+#USER user
 
 ENV PATH="/platoe/scripts/:${PATH}"
 
-CMD ["/platoe/scripts/entrypoint.sh"]
+CMD ["entrypoint.sh"]
