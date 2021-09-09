@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY','ks_r!6l3^26_-st%()#xjefl@o+^4)vntw()9vyuv6yzt1!g6x')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEBUG',0)
+DEBUG = bool(os.environ.get('DEBUG',0))
 
-ALLOWED_HOSTS = ['dev.platoe.io', '*']
+ALLOWED_HOSTS = ['dev.platoe.io']
 
 AUTH_USER_MODEL = "ideas.User"
 
@@ -128,13 +128,13 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
-STATICFILES_DIRS = ['ideas/static']
+STATICFILES_DIRS = ['ideas/static', 'ideas/media']
 
 
-STATIC_URL = os.path.join(BASE_DIR, 'staticfiles')
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+STATIC_ROOT = 'static'
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'ideas/media/')
+MEDIA_ROOT = '/ideas/media/'
 
 
 #EMAIL CONFIGURATION
