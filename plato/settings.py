@@ -128,7 +128,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'ideas/media/')
+#MEDIA_ROOT = os.path.join(BASE_DIR, 'ideas/media/')
 
 
 #EMAIL CONFIGURATION
