@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY','ks_r!6l3^26_-st%()#xjefl@o+^4)vntw()9v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.environ.get('DEBUG',0))
 
-ALLOWED_HOSTS = ['dev.platoe.io', '*']
+ALLOWED_HOSTS = ['test.platoe.io']
 
 AUTH_USER_MODEL = "ideas.User"
 
@@ -129,7 +129,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
-STATICFILES_DIRS = ['ideas/static', 'ideas/media']
+STATICFILES_DIRS = ['ideas/static']
 
 
 STATIC_URL = '/static/'
