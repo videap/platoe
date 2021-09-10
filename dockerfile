@@ -27,4 +27,6 @@ RUN pip install -r requirements.txt
 
 ENV PATH="/platoe/scripts/:${PATH}"
 
+EXPOSE 8000
+
 CMD ["entrypoint.sh"]

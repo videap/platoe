@@ -2,13 +2,17 @@ version: '2'
 
 services:
   app:
-    container_name: platoe
+    tty: true
+    container_name: docker.platoe
     build:
       context: .
     ports:
       - "8000:8000"
+    volumes:
+      - /docker-platoe/static_volume:/platoe/static_volume
     environment:
       - DEBUG=0
+      - DJANGO_LOG_LEVEL=DEBUG
       - DJANGO_SETTINGS_MODULE=test-settings
       - DB_PASSWORD=ajij%@6gav82!hsA8V8j7
 
@@ -20,3 +24,6 @@ services:
       - "80:80"
     depends_on:
       - app
+    volumes:
+      - /docker-platoe/static_volume:/static_volume
+

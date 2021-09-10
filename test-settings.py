@@ -13,6 +13,7 @@ import os
 from pathlib import Path
 from posix import environ
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -26,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY','ks_r!6l3^26_-st%()#xjefl@o+^4)vntw()9v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.environ.get('DEBUG',0))
 
-ALLOWED_HOSTS = ['dev.platoe.io']
+ALLOWED_HOSTS = ['dev.platoe.io', '*']
 
 AUTH_USER_MODEL = "ideas.User"
 
@@ -132,9 +133,9 @@ STATICFILES_DIRS = ['ideas/static', 'ideas/media']
 
 
 STATIC_URL = '/static/'
-STATIC_ROOT = 'static'
+STATIC_ROOT = 'static_volume'
 MEDIA_URL = '/media/'
-MEDIA_ROOT = '/ideas/media/'
+MEDIA_ROOT = 'media_volume'
 
 
 #EMAIL CONFIGURATION
@@ -150,3 +151,21 @@ APP_FEE = 0.2
 
 #FOR DJANGO 3.2
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
+
+# Logging Configuration
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler'
+        },
+    },
+    'loggers': {
+        '': {  # 'catch all' loggers by referencing it with the empty string
+            'handlers': ['console'],
+            'level': 'DEBUG',
+        },
+    },
+}
