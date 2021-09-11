@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY','ks_r!6l3^26_-st%()#xjefl@o+^4)vntw()9v
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['dev.platoe.io', '*']
+ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = "ideas.User"
 
@@ -137,9 +137,9 @@ EMAIL_PORT = '1025'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 #GLOBAL VARIABLES
-STRIPE_PUBLISHABLE_KEY = os.environ.get('STRIPE_PUBLISHABLE_KEY', 'pk_test_..................')
-STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY', 'sk_test_.....................')
-WEBHOOK_SECRET= os.environ.get('WEBHOOK_SECRET', "whsec_CrUDjJiA3kCvaHQKQgAf6iVWd7JGWAok") #This is the local computer secret
+STRIPE_PUBLISHABLE_KEY = os.environ.get('STRIPE_PUBLISHABLE_KEY', '')
+STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY', '')
+WEBHOOK_SECRET= os.environ.get('WEBHOOK_SECRET', "") #This is the local computer secret
 APP_FEE = 0.2
 
 #FOR DJANGO 3.2
