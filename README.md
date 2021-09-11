@@ -1,4 +1,4 @@
-# Capstone
+# Platoe
 
 This application called **Plato** is an old idea that got me to start developing. This is the first version, with lots of enhancements yet to be made. It is a work-in-progress that will be released soon.
 
