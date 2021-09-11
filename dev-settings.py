@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
 from pathlib import Path
-from posix import environ
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -141,8 +140,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 #GLOBAL VARIABLES
 STRIPE_PUBLISHABLE_KEY = os.environ.get('STRIPE_PUBLISHABLE_KEY', '')
 STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY', '')
-WEBHOOK_SECRET= os.environ.get('WEBHOOK_SECRET', "") #This is the local computer secret
+WEBHOOK_SECRET= os.environ.get('WEBHOOK_SECRET', '') #This is the local computer secret
 APP_FEE = 0.2
 
 #FOR DJANGO 3.2
-DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

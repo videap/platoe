@@ -105,6 +105,17 @@ Plato uses from several external modules that need to be installed using pip. Th
 ```
 pip install -r ./requirements.txt
 ```
+
+## 4. Set Environment Variable for Development Environment
+Django uses an ENVIRONMENT VARIABLE to specify its settings, so in this case, the variable must be set to:
+
+ - DJANGO_SETTINGS_MODULE=dev-settings
+
+If you are using powershell, this can be done with the command:
+```
+$Env:DJANGO_SETTINGS_MODULE = "dev-settings"
+```
+
 ## 5. Populate the database with dev data using the fixtures
 To populate de sqlite database using the fixtures, run the command:
 ```
@@ -136,4 +147,10 @@ When you run the "stripe listen" command, it will show you the WEBHOOK secret ne
  - STRIPE_SECRET_KEY="sk_test_....................." 
  - WEBHOOK_SECRET="whsec_..............."
 
+If you are using powershell, this can be done with the commands:
+```
+$Env:STRIPE_PUBLISHABLE_KEY = "pk_test_...."
+$Env:STRIPE_SECRET_KEY = "sk_test_.."
+$Env:WEBHOOK_SECRET = "whsec_...."
+```
 
