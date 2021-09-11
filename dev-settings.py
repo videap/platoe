@@ -11,25 +11,21 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
 from pathlib import Path
-
-print("Starting Developer Settings")
+from posix import environ
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent   
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'ks_r!6l3^26_-st%()#xjefl@o+^4)vntw()9vyuv6yzt1!g6x'
-
-#DEVELOPER ENVIRONMENT
-WEBHOOK_SECRET = 'whsec_CrUDjJiA3kCvaHQKQgAf6iVWd7JGWAok'
-
+# SECURITY WARNING: keep the secret key used in production secret! #TODO
+SECRET_KEY = os.environ.get('SECRET_KEY','ks_r!6l3^26_-st%()#xjefl@o+^4)vntw()9vyuv6yzt1!g6x')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+
 
 ALLOWED_HOSTS = ['*']
 
@@ -131,8 +127,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = 'static_volume'
 MEDIA_URL = '/media/'
-#MEDIA_ROOT = os.path.join(BASE_DIR, 'ideas/media/')
+MEDIA_ROOT = 'media_volume'
+
 
 
 #EMAIL CONFIGURATION
@@ -141,6 +139,10 @@ EMAIL_PORT = '1025'
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 #GLOBAL VARIABLES
-STRIPE_PUBLISHABLE_KEY = 'pk_test_51I1kZwF2Gy9eFZtoKSGPFTaP5BqN2Kg6Lt0UhJfAsCxa3aW0uwWuKvQuzYdFAiNks7UyVgcDVgOt83uWZosCx95o00H2ohFmeq'
-STRIPE_SECRET_KEY = 'sk_test_51I1kZwF2Gy9eFZtoByYSrv5tXY3UhTnxil9Xkl9HGmMSIoIfEUkU2fUCtntwDepyhPdaq198Dtk86EFcCViPKKA200SB1PpAtJ'
+STRIPE_PUBLISHABLE_KEY = os.environ.get('STRIPE_PUBLISHABLE_KEY', '')
+STRIPE_SECRET_KEY = os.environ.get('STRIPE_SECRET_KEY', '')
+WEBHOOK_SECRET= os.environ.get('WEBHOOK_SECRET', "") #This is the local computer secret
 APP_FEE = 0.2
+
+#FOR DJANGO 3.2
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'

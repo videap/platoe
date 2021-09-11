@@ -81,7 +81,7 @@ def create_payment_intent(idea_id, request_user_id, payment_method):
         payment_intent = stripe.PaymentIntent.create(
             payment_method_types=['card'],
             customer=requester_customer_id,
-            setup_future_usage="on_session",
+            #setup_future_usage="on_session", #optional if save card is enabled
             amount=share_value,
             currency='usd',
             application_fee_amount=application_fee,

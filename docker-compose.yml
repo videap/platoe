@@ -1,0 +1,34 @@
+version: '2'
+
+services:
+  app:
+    tty: true
+    container_name: test.django
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - /home/ubuntu/docker-platoe/test_static_volume:/platoe/static_volume
+      - /home/ubuntu/docker-platoe/test_media_volume:/platoe/media_volume
+    environment:
+      - DEBUG=0
+      - DJANGO_LOG_LEVEL=DEBUG
+      - DJANGO_SETTINGS_MODULE=test-settings
+      - DB_PASSWORD=ajij%@6gav82!hsA8V8j7
+      - STRIPE_PUBLISHABLE_KEY=pk_test_51I1kZwF2Gy9eFZtoKSGPFTaP5BqN2Kg6Lt0UhJfAsCxa3aW0uwWuKvQuzYdFAiNks7UyVgcDVgOt83uWZosCx95o00H2ohFmeq
+      - STRIPE_SECRET_KEY=sk_test_51I1kZwF2Gy9eFZtoByYSrv5tXY3UhTnxil9Xkl9HGmMSIoIfEUkU2fUCtntwDepyhPdaq198Dtk86EFcCViPKKA200SB1PpAtJ
+      - WEBHOOK_SECRET=whsec_hv6PT67mTaBO0frIq7QxPP57aGZo62VV
+
+  web:
+    container_name: test.nginx
+    build:
+      context: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - app
+    volumes:
+      - /home/ubuntu/docker-platoe/test_static_volume:/static_volume
+      - /home/ubuntu/docker-platoe/test_media_volume:/media_volume
+

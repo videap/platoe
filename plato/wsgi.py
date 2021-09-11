@@ -1,5 +1,9 @@
 """
-WSGI config for howmuch project.
+<<<<<<< HEAD
+WSGI config for Plato project.
+=======
+WSGI config for plato project.
+>>>>>>> docker
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +15,10 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'howmuch.settings')
+<<<<<<< HEAD
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'plato.settings')
+=======
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'dev-settings')
+>>>>>>> docker
 
 application = get_wsgi_application()

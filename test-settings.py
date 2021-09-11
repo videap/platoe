@@ -13,6 +13,7 @@ import os
 from pathlib import Path
 from posix import environ
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -21,13 +22,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY','whsec_CrUDjJiA3kCvaHQKQgAf6iVWd7JGWAok')
+SECRET_KEY = os.environ.get('SECRET_KEY','ks_r!6l3^26_-st%()#xjefl@o+^4)vntw()9vyuv6yzt1!g6x')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = bool(os.environ.get('DEBUG',0))
 
-
-ALLOWED_HOSTS = ['dev.platoe.io', '*']
+ALLOWED_HOSTS = ['test.platoe.io']
 
 AUTH_USER_MODEL = "ideas.User"
 
@@ -84,8 +84,12 @@ WSGI_APPLICATION = 'plato.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'djangotestdb',
+        'USER': 'videap',
+        'PASSWORD': os.environ.get('DB_PASSWORD', ''),
+        'HOST': 'dbtest-platoe-io',
+	'PORT': '3306',
     }
 }
 
@@ -125,10 +129,13 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
+STATICFILES_DIRS = ['ideas/static']
+
 
 STATIC_URL = '/static/'
+STATIC_ROOT = 'static_volume'
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'ideas/media/')
+MEDIA_ROOT = 'media_volume'
 
 
 #EMAIL CONFIGURATION
@@ -144,3 +151,21 @@ APP_FEE = 0.2
 
 #FOR DJANGO 3.2
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
+
+# Logging Configuration
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler'
+        },
+    },
+    'loggers': {
+        '': {  # 'catch all' loggers by referencing it with the empty string
+            'handlers': ['console'],
+            'level': 'DEBUG',
+        },
+    },
+}
