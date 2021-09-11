@@ -16,56 +16,9 @@ The front-end is mostly designed with React. Lots of Classes are very alike, but
 Some of important features are almost ready, such as password change, webhooks, file handling, but require email servers, storage devices, public endpoints, certificates, so they are not complete yet. 
 
 ## How to Run
-### Python Packages
-They are all defined in the file **requirements.txt**
 
-### Stripe API Keys
-For simplicity, the project is already set with *my personal test stripe key*, and this is enough to test most features. To test the webhook, another account needs to be set, so the stripe keys must be changed. It can be done simply editing the following variables in **plato/settings.py** file:
+### Settings
+Depending on the environment to run Plato, this is changes on the settings.py file in the main directory for Django. There is a file for each setting, calles dev-settings.py, test-settings.py and prod-settings.py. When starting the project, this should be defined.
 
- - STRIPE_PUBLISHABLE_KEY
- - STRIPE_SECRET_KEY
+To deploy your environments, please check the "DeployGuides" folder and read specific documentation.
 
-### Stripe Webhook
-
-For a test development, *stripe test webhook* must be configured [according to this link](https://stripe.com/docs/webhooks/test).
-
-It will install the Stripe CLI in the test environment, and to simulate the webhook, run the following command:
-
-    stripe listen --forward-to localhost:8000/stripe_webhook
-   
-  > **Note:** Change "localhost:8000" accordingly, this must be a resolvable address:port to Django Server
-
-### Stripe Credit Card for Test
-To test payment options, you can use the test card for Stripe, defined by:
-  4242 4242 4242 4242
-
-
-## Components
-All components are inside the *idea* folder.
-
-### media/ and media/profile_images/
-These folders are to maintain images and media files for the front-end (media/) and for the users image profiles (profile_images/)
-
-### static/
-This folder holds the CSS and Javascript files.
-
-### templates/*.html files
-
-All .html files render the HTML and some javascript code, for each page.
-
-### /static/ideas/react_components.js
-All react elements (classes) are defined here, and only that.
-
-### api.py
-Defines all functions called by the server or the front-end, mostly to manage data.
-
-### api_stripe.py
-Defines functions to interact with stripe. All functions are called by the server side, with information fetched from the database.
-
-### forms.py
-Most of the data inserted with POST requests are validated by Django using ModelForms. This file defines the classes used.  
-
-### functions.py
-General functions used by views and APIs, such as Paginator and custom validation.
-
-#
