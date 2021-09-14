@@ -4,7 +4,14 @@ metadata:
   name: test.platoe.io
   annotations:
    nginx.ingress.kubernetes.io/rewrite-target: /
+   service.beta.kubernetes.io/oci-load-balancer-shape: 400Mbps
 spec:
+  ingressClassName: ingress-nginx-controller
+  defaultBackend:
+    service:
+      name: test-django-service
+      port:
+        number: 80
   rules:
   - host: "test.platoe.io"
   - http:
@@ -14,9 +21,8 @@ spec:
         backend:
           service:
             name: test-django-service
-            port:
+            port: 
               number: 80
-
 
 ---
 
@@ -143,9 +149,11 @@ apiVersion: v1
 metadata:
   name: test-django-service
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: test-django
   ports:
     - port: 80
       targetPort: 8000
+
+---
