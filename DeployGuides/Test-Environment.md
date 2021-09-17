@@ -134,15 +134,19 @@ It is not necessary to install Docker-Compose with pip, but this enables the usa
 pip install docker-compose
 ```
 
-## 3. Run Docker Compose
+## 3. Install and connect with kubectl
 
-In the project root (you will find the file manage.py in this directory) run the command:
-```
-docker-compose up &
-```
+In a remote server, install the kubectl tool to interact with the OKE cluster. Depending on your host, follow according to this [link](https://kubernetes.io/docs/tasks/tools/). Make sure this host can access the OKE API Endpoint and can authenticate to OCI using the CLI.
 
-To recreate images, you need to specify the build parameter:
+To check if your installation is working, run the command in the host for the kubectl tool:
 ```
-docker-compose up --build &
+kubectl version
 ```
 
+If everything is set up, to run your containers, you can use the command from the project root directory: 
+
+```
+kubectl create -f ./k8s/*
+```
+
+To access your application, from any browser, access http://test.platoe.io

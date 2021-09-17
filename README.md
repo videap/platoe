@@ -9,16 +9,16 @@ I believe this project is distinct because of the security concerns to handle se
 
 # Principles
 
-By definition, an idea cannot be "shown" to someone before payment, otherwise the product is delivered with no payment. So the website has stripe integration that confirms payments through webkooks. There is a 2-Layer API, one for the front-end, and other for the server to handle financial operations with stripe (not accessible by clients). The information available to the client-side is very controlled.
+By definition, an idea cannot be "shown" to someone before payment, otherwise the product is delivered with no payment. So the website has stripe integration that fulfill payments through webkooks. There is a 2-Layer API, one for the front-end, and other for the server to handle financial operations with stripe (not accessible by clients) and future they will be aparted. The information available to the client-side is very controlled.
 
 The front-end is mostly designed with React. Lots of Classes are very alike, but they are different elements because in the future they will become very different.
 
-Some of important features are almost ready, such as password change, webhooks, file handling, but require email servers, storage devices, public endpoints, certificates, so they are not complete yet. 
+Some of important features are customized and ready, such as password change, webhooks, file handling, database, automation with jenkins, registry and kubernetes manifests, IaC, but email servers, storage devices, certificates and monitoring are not deployed yet. 
 
 ## How to Run
 
 ### Settings
-Depending on the environment to run Plato, this is changes on the settings.py file in the main directory for Django. There is a file for each setting, calles dev-settings.py, test-settings.py and prod-settings.py. When starting the project, this should be defined.
+Depending on the environment to run Plato, you should select the right settings.py file in the main directory for Django. There is a file for each setting, called dev-settings.py, test-settings.py and prod-settings.py. When starting the project, this should be defined.
 
 To deploy your environments, please check the "DeployGuides" folder and read specific documentation.
 
