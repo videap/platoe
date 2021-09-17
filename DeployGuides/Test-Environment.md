@@ -1,9 +1,9 @@
 # Deploy Test Environment:
-The test environment is containerized, prepared for docker, to be run in a test server (test.platoe.io) in Oracle Cloud, with a MySQL database in a different host. The stripe-webhook is configured for the internet on port 80 (http). 
+The test environment is containerized, prepared for docker, to be run in a test server (test.platoe.io) in Oracle Cloud, with a MySQL database in a different host. The stripe-webhook is configured for the internet on port 80 (http). The orchestration is made to Kubernetes in Oracle Cloud (OKE) using manifests.
 
 It has 2 containers, one proxy (nginx) and one app (django). The build for the image is set in dockerfiles, and they are orchestrated using docker-compose.
 
-Nginx acts as reverse-proxy, presenting the application as web server, and the static and media files in 2 volumes. This volume is shared by the django container, and is set as a directory in the test-server.
+Nginx acts as reverse-proxy, presenting the application as web server, and the static and media files in 2 volumes. This volume is shared by the django container, and is set as NFS Server external to the test-server.
 
 Django container has also an application server, that is currently gunicorn.
 
@@ -43,8 +43,8 @@ There are 2 urls.py files, the project file, and the application file. The proje
 ## Components
 All components are inside the *idea* folder.
 
-### media/ and media/profile_images/
-These folders are to maintain images and media files. They are served by django in developer environment and configured in the dev-settings.py file. They expose the files found in the MEDIA_ROOT directory using the MEDIA_URL string. For example, a request for plato.io/media/profile_images/user1.png would fetch for an image named user1.png found in the MEDIA_ROOT/profile_mages/ directory.
+### media/ and media/
+This folders is mounted to the container to maintain images and media files. They are served by django in developer environment and configured in the dev-settings.py file. They expose the files found in the MEDIA_ROOT directory using the MEDIA_URL string. For example, a request for plato.io/media/profile_images/user1.png would fetch for an image named user1.png found in the MEDIA_ROOT/profile_mages/ directory.
 
 ### static/
 This folder holds the CSS and Javascript files, and is also served by django in developer environment. Similar to media, they expose the files found in the STATIC_ROOT directory using the STATIC_URL string
@@ -71,8 +71,8 @@ General functions used by views and APIs, such as Paginator and custom validatio
 ### dockerfiles
 There are 2 dockerfiles, 1 in the root directory, and other in the nginx directory, that sits alongside the default.conf file for nginx configuration.
 
-### docker-compose
-To orchestrate the deployment, it describes environment variables, container properties and volumes (in this case, shared volumes)
+### kubernetes
+To orchestrate the deployment, there are manifests inside the k8s/ folder. The environment variables are set in the 
 
 # HOW TO DEPLOY
 
