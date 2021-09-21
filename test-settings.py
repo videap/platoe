@@ -86,7 +86,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'djangotestdb',
-        'USER': 'videap',
+        'USER': os.environ.get('DB_USER', ''),
         'PASSWORD': os.environ.get('DB_PASSWORD', ''),
         'HOST': 'dbtest-platoe-io',
 	'PORT': '3306',

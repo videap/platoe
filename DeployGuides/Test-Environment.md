@@ -133,8 +133,29 @@ It is not necessary to install Docker-Compose with pip, but this enables the usa
 ```
 pip install docker-compose
 ```
+## 3. Define secrets
+The secrets are defined in a yaml file for kubernetes. These defines variables for DB Connection and for Stripe Keys Integration.
 
-## 3. Install and connect with kubectl
+There should be a file named secret.yaml (or any file with secret* prefix, for it to be ignored by git) following the template below. Complete the variables accordingly.
+
+```
+piVersion: v1
+kind: Secret
+metadata:
+  name: django-secrets
+type: opaque
+stringData:
+  DB_USERNAME: ""
+  DB_PASSWORD: ""
+  STRIPE_PUBLISHABLE_KEY: ""
+  STRIPE_SECRET_KEY: ""
+  WEBHOOK_SECRET: ""
+
+```
+
+
+
+## 4. Install and connect with kubectl
 
 In a remote server, install the kubectl tool to interact with the OKE cluster. Depending on your host, follow according to this [link](https://kubernetes.io/docs/tasks/tools/). Make sure this host can access the OKE API Endpoint and can authenticate to OCI using the CLI.
 
@@ -150,3 +171,6 @@ kubectl create -f ./k8s/*
 ```
 
 To access your application, from any browser, access http://test.platoe.io
+
+
+
