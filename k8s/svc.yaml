@@ -19,7 +19,7 @@ metadata:
   name: nginx-loadbalancer
 spec:
   type: LoadBalancer
-  loadBalancerIP: 152.70.131.246
+  loadBalancerIP: 52.188.92.241
   selector:
     app: test-nginx-django
   ports:

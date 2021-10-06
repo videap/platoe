@@ -22,7 +22,7 @@ spec:
             claimName: nfs-static-pvc
       containers:
       - name: test-django
-        image: phx.ocir.io/id3kyspkytmr/test-platoe/test-django:0.0.1
+        image: testplatoe.azurecr.io/test-django:0.0.1
         imagePullPolicy: Always
         envFrom:
           - configMapRef:
@@ -37,8 +37,8 @@ spec:
           - name: media-claim
             mountPath: /platoe/media_volume
       restartPolicy: Always
-      imagePullSecrets:
-      - name: ocirsecret
+#      imagePullSecrets:
+#      - name: ocirsecret
 
 ---
 apiVersion: apps/v1
@@ -64,7 +64,7 @@ spec:
             claimName: nfs-static-pvc
       containers:
       - name: test-nginx-django
-        image: phx.ocir.io/id3kyspkytmr/test-platoe/test-nginx-django:0.0.1
+        image: testplatoe.azurecr.io/test-nginx-django:0.0.1
         imagePullPolicy: Always
         ports:
         - containerPort: 80
@@ -74,5 +74,5 @@ spec:
           - name: media-claim
             mountPath: /media_volume
       restartPolicy: Always
-      imagePullSecrets:
-      - name: ocirsecret
+#      imagePullSecrets:
+#      - name: ocirsecret
