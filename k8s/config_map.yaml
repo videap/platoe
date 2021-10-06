@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: django-settings
+data:
+  DEBUG: "0"
+  DJANGO_LOG_LEVEL: "DEBUG"
+  DJANGO_SETTINGS_MODULE: "test-settings"
+  DB_PASSWORD: "ajij%@6gav82!hsA8V8j7"
+
+
+
+
