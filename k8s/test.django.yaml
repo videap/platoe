@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: test.django
 spec:
-  replicas: 6
+  replicas: 1
   selector:
     matchLabels:
       app: test-django
@@ -46,7 +46,7 @@ kind: Deployment
 metadata:
   name: test.nginx.django
 spec:
-  replicas: 6
+  replicas: 1
   selector:
     matchLabels:
       app: test-nginx-django

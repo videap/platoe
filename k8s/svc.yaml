@@ -16,7 +16,7 @@ spec:
 kind: Service
 apiVersion: v1
 metadata:
-  name: test-django-nginx-service
+  name: nginx-loadbalancer
 spec:
   type: LoadBalancer
   loadBalancerIP: 152.70.131.246

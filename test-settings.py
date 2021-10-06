@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
+import logging
 from pathlib import Path
 from posix import environ
 
@@ -88,7 +89,7 @@ DATABASES = {
         'NAME': 'djangotestdb',
         'USER': os.environ.get('DB_USER', ''),
         'PASSWORD': os.environ.get('DB_PASSWORD', ''),
-        'HOST': 'dbtest-platoe-io',
+        'HOST': 'dbtest.platoe.io',
 	'PORT': '3306',
     }
 }

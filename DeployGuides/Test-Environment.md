@@ -172,5 +172,40 @@ kubectl create -f ./k8s/*
 
 To access your application, from any browser, access http://test.platoe.io
 
+## 5. Install EFK (Elasticsearch, Fluent and Kibana)
+
+### Elasticsearch
+To install elasticsearch, you will use helm charts. Firts, ensure you have helm installed in you client, running:
+```
+helm version
+```
+
+If not, to install, follow [these steps](https://helm.sh/docs/intro/install/)
+
+We will use the bitnami template, so run the following commands:
+```
+helm repo add bitnami https://charts.bitnami.com/bitnami
+helm install elasticsearch bitnami/elasticsearch
+```
+
+### Fluentd (in the nodes)
+To install fluentd, you will deploy the daemon-set defined in the yaml file ./k8s/fluentd.yaml. To do so, run the command from the project root directory:
+
+```
+kubectl create -f ./k8s/fluentd.yaml
+```
+
+### Kibana
+Kibana will also use a helm-chart. Run the command:
+
+```
+helm install kibana bitnami/kibana \
+  --set aggregator.configMap=elasticsearch-output \
+  --set elasticsearch.enabled=true \
+  --set elasticsearch.hosts[0]=elasticsearch-coordinating-only.default.svc.cluster.local \
+  --set elasticsearch.port=9200 \
+  --set service.type=LoadBalancer
+```
 
 
+https://logz.io/blog/deploying-the-elk-stack-on-kubernetes-with-helm/
