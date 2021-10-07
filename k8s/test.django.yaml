@@ -64,7 +64,7 @@ spec:
             claimName: nfs-static-pvc
       containers:
       - name: test-nginx-django
-        image: testplatoe.azurecr.io/test-nginx-django:0.0.1
+        image: testplatoe.azurecr.io/test-nginx-django:0.0.2
         imagePullPolicy: Always
         ports:
         - containerPort: 80
