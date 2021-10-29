@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY','ks_r!6l3^26_-st%()#xjefl@o+^4)vntw()9v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.environ.get('DEBUG',0))
 
-ALLOWED_HOSTS = ['test.platoe.io']
+ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = "ideas.User"
 
