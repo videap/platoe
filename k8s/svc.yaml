@@ -1,0 +1,28 @@
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: test-django-service
+spec:
+  type: ClusterIP
+  selector:
+    app: test-django
+  ports:
+    - port: 80
+      targetPort: 8000
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: test-django-nginx-service
+spec:
+  type: LoadBalancer
+  loadBalancerIP: 152.70.131.246
+  selector:
+    app: test-nginx-django
+  ports:
+    - port: 80
+      targetPort: 80
+

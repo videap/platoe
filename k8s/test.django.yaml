@@ -1,0 +1,76 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test.django
+spec:
+  replicas: 6
+  selector:
+    matchLabels:
+      app: test-django
+  template:
+    metadata:
+      labels:
+        app: test-django
+    spec:
+      volumes:
+        - name: media-claim
+          persistentVolumeClaim:
+            claimName: nfs-media-pvc
+        - name: static-claim
+          persistentVolumeClaim:
+            claimName: nfs-static-pvc
+      containers:
+      - name: test-django
+        image: phx.ocir.io/id3kyspkytmr/test-platoe/test-django:0.0.1
+        imagePullPolicy: Always
+        envFrom:
+          - configMapRef:
+              name: django-settings
+        ports:
+        - containerPort: 8000
+        volumeMounts:
+          - name: static-claim
+            mountPath: /platoe/static_volume
+          - name: media-claim
+            mountPath: /platoe/media_volume
+      restartPolicy: Always
+      imagePullSecrets:
+      - name: ocirsecret
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test.nginx.django
+spec:
+  replicas: 6
+  selector:
+    matchLabels:
+      app: test-nginx-django
+  template:
+    metadata:
+      labels:
+        app: test-nginx-django
+    spec:
+      volumes:
+        - name: media-claim
+          persistentVolumeClaim:
+            claimName: nfs-media-pvc
+        - name: static-claim
+          persistentVolumeClaim:
+            claimName: nfs-static-pvc
+      containers:
+      - name: test-nginx-django
+        image: phx.ocir.io/id3kyspkytmr/test-platoe/test-nginx-django:0.0.1
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+        volumeMounts:
+          - name: static-claim
+            mountPath: /static_volume
+          - name: media-claim
+            mountPath: /media_volume
+      restartPolicy: Always
+      imagePullSecrets:
+      - name: ocirsecret

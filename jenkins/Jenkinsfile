@@ -1,0 +1,24 @@
+pipeline{
+    agent{ node("dev.platoe.io") }
+    stages{
+        stage("PingSelf") {
+            steps {
+                sh "ping dev.platoe.io -c 1"
+            }
+        }
+        stage("Git"){
+            steps{
+  
+                git credentialsId: 'jenkins-webhook',
+                url: 'https://github.com/videap/platoe.git',
+                branch: 'test'
+            }
+        }
+        stage("RunScript"){
+            steps{
+                sh 'chmod +x ${PWD}/jenkins/scripts/dev_setup.sh'
+                sh '${PWD}/jenkins/scripts/dev_setup.sh'
+            }
+        }
+    }
+}

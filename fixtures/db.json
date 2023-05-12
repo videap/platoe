@@ -1,0 +1,3592 @@
+[
+{
+  "model": "ideas.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$OmD0Ze0tWE9r$UtI3dWQgJ0IZLizGdRhwuiTY57yay1xsCFw8CM0fVnI=",
+    "last_login": "2020-10-20T19:49:19.887Z",
+    "is_superuser": false,
+    "username": "vitor",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-09-23T00:42:32Z",
+    "phone": "+12125552368",
+    "email": "vi.deap@gmail.com",
+    "first_name": "Vitor",
+    "last_name": "",
+    "birthdate": "2020-10-02",
+    "image": "profile_images/fox.png",
+    "creation_timestamp": "2020-10-02T03:02:02.151Z",
+    "failed_logins": 0,
+    "last_login_attempt": "2020-10-20T18:38:08.317Z",
+    "rating": 5,
+    "banking_accept": false,
+    "banking_accept_time": "2021-01-24T20:24:41.945Z",
+    "payment_accept": false,
+    "payment_accept_time": "2021-01-24T20:24:42.014Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "ideas.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$nsAK7G8J5rs2$8laARtw0rqwAcBNLdtQO0mSnlfYtMXFELIA5wjTf/6g=",
+    "last_login": "2021-02-15T13:52:01.988Z",
+    "is_superuser": true,
+    "username": "admin",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-09-23T00:45:25Z",
+    "phone": "+41524404241",
+    "email": "admin@admin.com",
+    "first_name": "admin",
+    "last_name": "",
+    "birthdate": "2020-10-02",
+    "image": "profile_images/avatar.jpg",
+    "creation_timestamp": "2020-10-02T03:02:02.151Z",
+    "failed_logins": 0,
+    "last_login_attempt": "2020-10-19T15:33:12Z",
+    "rating": 5,
+    "banking_accept": false,
+    "banking_accept_time": "2021-01-24T20:24:41.945Z",
+    "payment_accept": false,
+    "payment_accept_time": "2021-01-24T20:24:42.014Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "ideas.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$4Kp2F8QQShfULIDN6lkkDq$nmHPmudKJjmYH8eX8T8sV6hBTf6pKRqUT6RyjVMZUQE=",
+    "last_login": "2021-08-18T02:35:11.134Z",
+    "is_superuser": false,
+    "username": "socrates",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-10-14T03:03:59Z",
+    "phone": "+41524204243",
+    "email": "socrates@example.com",
+    "first_name": "Socrates",
+    "last_name": "of Athens",
+    "birthdate": "1930-03-03",
+    "image": "",
+    "creation_timestamp": "2020-10-14T03:03:59.754Z",
+    "failed_logins": 0,
+    "last_login_attempt": "2021-02-15T17:45:11.881Z",
+    "rating": 5,
+    "banking_accept": true,
+    "banking_accept_time": "2021-01-25T12:29:07Z",
+    "payment_accept": true,
+    "payment_accept_time": "2021-01-25T13:53:07Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "ideas.user",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$2u8lDP2Lv6pC$d8tW3Gx3kY7rCC23cvGJpZeg7WF/VvIfTjqzFaIgS+Q=",
+    "last_login": "2021-02-05T22:42:56.175Z",
+    "is_superuser": false,
+    "username": "plato",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-10-14T03:05:06Z",
+    "phone": "+41524204244",
+    "email": "plato@example.com",
+    "first_name": "Plato",
+    "last_name": "of Athens",
+    "birthdate": "1930-04-04",
+    "image": "profile_images/Plato_6DzCJcq.jpg",
+    "creation_timestamp": "2020-10-14T03:05:06.775Z",
+    "failed_logins": 0,
+    "last_login_attempt": "2021-02-05T22:05:40.712Z",
+    "rating": 5,
+    "banking_accept": true,
+    "banking_accept_time": "2021-01-25T19:09:42Z",
+    "payment_accept": false,
+    "payment_accept_time": "2021-01-24T17:45:42Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "ideas.user",
+  "pk": 16,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$eqOJXFHKm29T$wiIq/nPeD3970zwkh9NfjLwSsHAzT/rXb4bfcpiGV8E=",
+    "last_login": "2021-01-20T04:02:33Z",
+    "is_superuser": false,
+    "username": "pythagoras",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-01-20T01:47:15Z",
+    "phone": "+41524204254",
+    "email": "pythagoras@example.com",
+    "first_name": "Pythagoras",
+    "last_name": "of Samos",
+    "birthdate": "2021-01-12",
+    "image": "",
+    "creation_timestamp": "2021-01-20T01:47:15.636Z",
+    "failed_logins": 0,
+    "last_login_attempt": "2021-01-20T02:47:49.211Z",
+    "rating": 5,
+    "banking_accept": false,
+    "banking_accept_time": "2021-01-24T20:24:41Z",
+    "payment_accept": false,
+    "payment_accept_time": "2021-01-24T20:24:42Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "ideas.user",
+  "pk": 18,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$Uvu7evewQtJg$zEpL3iD0AgRaadaxQzaS3ksggqcTLqxMCZcZTOo6Xgw=",
+    "last_login": "2021-02-15T15:10:01.909Z",
+    "is_superuser": false,
+    "username": "parmenides",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-02-13T16:56:14.855Z",
+    "phone": "+41529204254",
+    "email": "parmenides@example.com",
+    "first_name": "Parmenides",
+    "last_name": "of Elea",
+    "birthdate": "0001-01-01",
+    "image": "profile_images/parmenides.jpg",
+    "creation_timestamp": "2021-02-13T16:56:15.676Z",
+    "failed_logins": 0,
+    "last_login_attempt": "2021-02-15T15:09:57.134Z",
+    "rating": 5,
+    "banking_accept": true,
+    "banking_accept_time": "2021-02-13T22:37:01.055Z",
+    "payment_accept": true,
+    "payment_accept_time": "2021-02-13T23:40:16.748Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "ideas.user",
+  "pk": 19,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$g7NVtgVa1IFr$YEV2oqWMiI0lhm435jveUb/3IbP9M37MQkGWx4HsFo0=",
+    "last_login": "2021-02-15T15:11:41.312Z",
+    "is_superuser": false,
+    "username": "thales",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-02-15T15:11:41.011Z",
+    "phone": "+15417543020",
+    "email": "thales@example.com",
+    "first_name": "Thales",
+    "last_name": "of Miletus",
+    "birthdate": "0001-01-01",
+    "image": "",
+    "creation_timestamp": "2021-02-15T15:11:41.274Z",
+    "failed_logins": 0,
+    "last_login_attempt": "2021-02-15T15:11:41.274Z",
+    "rating": 5,
+    "banking_accept": true,
+    "banking_accept_time": "2021-02-15T15:11:50.173Z",
+    "payment_accept": false,
+    "payment_accept_time": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "ideas.user",
+  "pk": 20,
+  "fields": {
+    "password": "pbkdf2_sha256$216000$SbiRaBoQRpFc$vDnRMlxc+gg9nqiOUQBzv/b/tx9neFBGtla6iFBa52Y=",
+    "last_login": "2021-02-15T18:29:12.570Z",
+    "is_superuser": false,
+    "username": "homer",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-02-15T16:32:15Z",
+    "phone": "+15417543010",
+    "email": "homer@example.com",
+    "first_name": "Homer",
+    "last_name": "of Greece",
+    "birthdate": "0005-05-04",
+    "image": "",
+    "creation_timestamp": "2021-02-15T16:32:15.378Z",
+    "failed_logins": 0,
+    "last_login_attempt": "2021-02-15T18:29:06.899Z",
+    "rating": 5,
+    "banking_accept": true,
+    "banking_accept_time": "2021-02-15T17:32:51.936Z",
+    "payment_accept": true,
+    "payment_accept_time": "2021-02-15T17:32:53.871Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "ideas.request",
+  "pk": 1,
+  "fields": {
+    "title": "Cave Design",
+    "category": "SVC",
+    "definition": "OTH",
+    "something_else": "",
+    "goal": "To achieve the better shadow from inside the cave.",
+    "restrictions": "",
+    "context": "People just see shadows from the World of Ideas.",
+    "offer_value": "50.00",
+    "requester": 11,
+    "request_timestamp": "2020-10-28T22:12:06.762Z"
+  }
+},
+{
+  "model": "ideas.request",
+  "pk": 2,
+  "fields": {
+    "title": "The ideal table",
+    "category": "OBJ",
+    "definition": "OTH",
+    "something_else": "",
+    "goal": "To reach the table perfect form",
+    "restrictions": "",
+    "context": "Trying to describe the perfect forms, table seems a good place to start",
+    "offer_value": "25.00",
+    "requester": 11,
+    "request_timestamp": "2020-11-09T23:40:31.041Z"
+  }
+},
+{
+  "model": "ideas.request",
+  "pk": 3,
+  "fields": {
+    "title": "New law for the senate",
+    "category": "OTH",
+    "definition": "OTH",
+    "something_else": "",
+    "goal": "More transparency in senate meetings",
+    "restrictions": "",
+    "context": "I am in prison",
+    "offer_value": "400.00",
+    "requester": 10,
+    "request_timestamp": "2020-11-10T23:05:33.603Z"
+  }
+},
+{
+  "model": "ideas.request",
+  "pk": 4,
+  "fields": {
+    "title": "Book of my phylosophy",
+    "category": "BOK",
+    "definition": "OTH",
+    "something_else": "",
+    "goal": "Keep my ideas registered throughout the history",
+    "restrictions": "",
+    "context": "I have never written a book",
+    "offer_value": "2050.00",
+    "requester": 10,
+    "request_timestamp": "2020-11-10T23:09:49.326Z"
+  }
+},
+{
+  "model": "ideas.request",
+  "pk": 5,
+  "fields": {
+    "title": "Something to clean our teeth",
+    "category": "OBJ",
+    "definition": "OTH",
+    "something_else": "",
+    "goal": "Better dental health",
+    "restrictions": "",
+    "context": "People have bad breath",
+    "offer_value": "50.00",
+    "requester": 10,
+    "request_timestamp": "2020-11-11T22:42:21.254Z"
+  }
+},
+{
+  "model": "ideas.request",
+  "pk": 6,
+  "fields": {
+    "title": "Site de Animais",
+    "category": "SVC",
+    "definition": "OTH",
+    "something_else": "",
+    "goal": "Participacao de pessoas, interação, para atrais patrocinadores de anuncios",
+    "restrictions": "",
+    "context": "Vitor pediu",
+    "offer_value": "200.00",
+    "requester": 10,
+    "request_timestamp": "2020-11-21T22:41:57.964Z"
+  }
+},
+{
+  "model": "ideas.request",
+  "pk": 7,
+  "fields": {
+    "title": "Something to measure distance of sun",
+    "category": "OBJ",
+    "definition": "OBJ_INVENTION",
+    "something_else": "",
+    "goal": "An object to measure the distance from the sun",
+    "restrictions": "It cannot be a very long string because I can't attach to the sun.",
+    "context": "I need to measure the distance to the sun in order to calculate its size.",
+    "offer_value": "25.00",
+    "requester": 10,
+    "request_timestamp": "2021-01-19T02:00:31.144Z"
+  }
+},
+{
+  "model": "ideas.request",
+  "pk": 8,
+  "fields": {
+    "title": "Scene of Gorgias in Agora",
+    "category": "MOV",
+    "definition": "MOV_SCENE",
+    "something_else": "",
+    "goal": "To get the Sophists humilliated in a very funny scene, yet with criticism.",
+    "restrictions": "The speech should start serious, and getting funnier as it goes",
+    "context": "The sophists wrote some books I disagree\r\nAlso, Gorgias always seems to make fun of others\r\nThe world should know the truth\r\nThere is no record of Gorgias\r\nAnd also, this would please me",
+    "offer_value": "85.00",
+    "requester": 11,
+    "request_timestamp": "2021-02-04T04:45:29.553Z"
+  }
+},
+{
+  "model": "ideas.request",
+  "pk": 9,
+  "fields": {
+    "title": "Music that is also philosophy",
+    "category": "ART",
+    "definition": "ART_MUS",
+    "something_else": "",
+    "goal": "I wanted to compose a music that the intellectuals would appreciate as if it was philosophy. How to express phylosophy with music?",
+    "restrictions": "It cannot be boring, but it also cannot be very simple.",
+    "context": "I want my philosophy to travel around the world",
+    "offer_value": "35.00",
+    "requester": 18,
+    "request_timestamp": "2021-02-13T22:12:44.953Z"
+  }
+},
+{
+  "model": "ideas.request",
+  "pk": 11,
+  "fields": {
+    "title": "Need a hero for my Book",
+    "category": "TXT",
+    "definition": "TXT_CHARACTER",
+    "something_else": "",
+    "goal": "To impress all humanity with the greatness of my character",
+    "restrictions": "Can not be Hector, or any God name.",
+    "context": "The character must be Troian and will defeat the most loved warrior from greece. The name of the character must be strong.",
+    "offer_value": "50.00",
+    "requester": 20,
+    "request_timestamp": "2021-02-15T17:53:49.138Z"
+  }
+},
+{
+  "model": "ideas.idea",
+  "pk": 1,
+  "fields": {
+    "idea_title": "46 Dialogues",
+    "idea_request": 4,
+    "idealist": 11,
+    "content": "Maybe a good way to write your ideas is through dialogues. I can create dialogues to represent your life and thoughts.",
+    "attachments": "",
+    "share_value": "2050.00",
+    "timestamp": "2021-01-15T03:56:58.292Z",
+    "rating": 5,
+    "status": "shared"
+  }
+},
+{
+  "model": "ideas.idea",
+  "pk": 2,
+  "fields": {
+    "idea_title": "Toothbrush",
+    "idea_request": 5,
+    "idealist": 11,
+    "content": "An object with thousands of small threads to pass in between our teeth daily.",
+    "attachments": "",
+    "share_value": "50.00",
+    "timestamp": "2021-01-15T03:56:58.292Z",
+    "rating": 5,
+    "status": "shared"
+  }
+},
+{
+  "model": "ideas.idea",
+  "pk": 3,
+  "fields": {
+    "idea_title": "Canon Light",
+    "idea_request": 1,
+    "idealist": 10,
+    "content": "Place a canon-light in the entrance to enhance the shadows contrast",
+    "attachments": "",
+    "share_value": "50.00",
+    "timestamp": "2021-01-15T03:56:58.292Z",
+    "rating": 5,
+    "status": "offered"
+  }
+},
+{
+  "model": "ideas.idea",
+  "pk": 4,
+  "fields": {
+    "idea_title": "Encyclopedia",
+    "idea_request": 4,
+    "idealist": 11,
+    "content": "Lets just put all of your thoughts in a huge book.",
+    "attachments": "",
+    "share_value": "2050.00",
+    "timestamp": "2021-01-15T03:56:58.292Z",
+    "rating": 5,
+    "status": "offered"
+  }
+},
+{
+  "model": "ideas.idea",
+  "pk": 5,
+  "fields": {
+    "idea_title": "Teach students that notes things",
+    "idea_request": 4,
+    "idealist": 11,
+    "content": "If you just speak out loud your ideas to a bunch of interested students for years you will get tons of notes. Later you can just collect them and publish.",
+    "attachments": "",
+    "share_value": "2050.00",
+    "timestamp": "2021-01-15T03:56:58.292Z",
+    "rating": 5,
+    "status": "offered"
+  }
+},
+{
+  "model": "ideas.idea",
+  "pk": 6,
+  "fields": {
+    "idea_title": "Booth",
+    "idea_request": 2,
+    "idealist": 10,
+    "content": "Booth is a large table with a single support in the middle to give space to users. It is also fixed with some soft-stuffed chair that accomodates lots of people.",
+    "attachments": "",
+    "share_value": "25.00",
+    "timestamp": "2021-01-15T03:56:58.292Z",
+    "rating": 5,
+    "status": "offered"
+  }
+},
+{
+  "model": "ideas.idea",
+  "pk": 7,
+  "fields": {
+    "idea_title": "Pyramidal Table",
+    "idea_request": 2,
+    "idealist": 10,
+    "content": "Foot are Pyramidal and the top is Round. Made on Marble.",
+    "attachments": "",
+    "share_value": "25.00",
+    "timestamp": "2021-01-16T20:15:40.127Z",
+    "rating": 5,
+    "status": "offered"
+  }
+},
+{
+  "model": "ideas.idea",
+  "pk": 9,
+  "fields": {
+    "idea_title": "All votes should not be anonymous",
+    "idea_request": 3,
+    "idealist": 18,
+    "content": "Anonymous votes contribute for side arrangements.",
+    "attachments": "",
+    "share_value": "400.00",
+    "timestamp": "2021-02-13T17:11:56.176Z",
+    "rating": 5,
+    "status": "offered"
+  }
+},
+{
+  "model": "ideas.idea",
+  "pk": 11,
+  "fields": {
+    "idea_title": "Use lots of metaphors with strong words",
+    "idea_request": 9,
+    "idealist": 10,
+    "content": "Catch phrases that resume you philosophy would do the job.",
+    "attachments": "",
+    "share_value": "35.00",
+    "timestamp": "2021-02-13T22:52:42.303Z",
+    "rating": 5,
+    "status": "offered"
+  }
+},
+{
+  "model": "ideas.idea",
+  "pk": 16,
+  "fields": {
+    "idea_title": "Difference on Shadows",
+    "idea_request": 7,
+    "idealist": 20,
+    "content": "Put 2 objects very far apart from each other and measure their shadows at the same time. The difference between the shadows sizes allow to calculate the distance from the sun.",
+    "attachments": "",
+    "share_value": "25.00",
+    "timestamp": "2021-02-15T17:46:48.404Z",
+    "rating": 5,
+    "status": "shared"
+  }
+},
+{
+  "model": "ideas.shared_idea",
+  "pk": 23,
+  "fields": {
+    "request": 4,
+    "idea_shared": 1,
+    "displayed_time": "2021-01-25T20:41:19.557Z",
+    "shared_value": "2050.00",
+    "site_fee": "410.00",
+    "transferred_value": "1640.00"
+  }
+},
+{
+  "model": "ideas.shared_idea",
+  "pk": 24,
+  "fields": {
+    "request": 5,
+    "idea_shared": 2,
+    "displayed_time": "2021-02-13T22:31:26.947Z",
+    "shared_value": "50.00",
+    "site_fee": "10.00",
+    "transferred_value": "40.00"
+  }
+},
+{
+  "model": "ideas.shared_idea",
+  "pk": 26,
+  "fields": {
+    "request": 7,
+    "idea_shared": 16,
+    "displayed_time": "2021-02-15T17:47:42.056Z",
+    "shared_value": "25.00",
+    "site_fee": "5.00",
+    "transferred_value": "20.00"
+  }
+},
+{
+  "model": "ideas.stripe_account",
+  "pk": 7,
+  "fields": {
+    "account_owner": 10,
+    "stripe_id": "acct_1IDUC22XlsH5guMt",
+    "customer_id": "cus_Ip9odUJ8ZB2yKs"
+  }
+},
+{
+  "model": "ideas.stripe_account",
+  "pk": 8,
+  "fields": {
+    "account_owner": 11,
+    "stripe_id": "acct_1IDaRc2ZShWolFWY",
+    "customer_id": ""
+  }
+},
+{
+  "model": "ideas.stripe_account",
+  "pk": 9,
+  "fields": {
+    "account_owner": 16,
+    "stripe_id": "",
+    "customer_id": ""
+  }
+},
+{
+  "model": "ideas.stripe_account",
+  "pk": 11,
+  "fields": {
+    "account_owner": 18,
+    "stripe_id": "acct_1IKWja2Y8kMRe9ZC",
+    "customer_id": "cus_IwQZ9epVm5ZCgY"
+  }
+},
+{
+  "model": "ideas.stripe_account",
+  "pk": 12,
+  "fields": {
+    "account_owner": 19,
+    "stripe_id": "acct_1IL8qh2Vpu64R65h",
+    "customer_id": ""
+  }
+},
+{
+  "model": "ideas.stripe_account",
+  "pk": 13,
+  "fields": {
+    "account_owner": 20,
+    "stripe_id": "acct_1ILAwS2XfYPZZXvM",
+    "customer_id": "cus_Ix56XFnRAcTNfF"
+  }
+},
+{
+  "model": "ideas.payment_intent",
+  "pk": 36,
+  "fields": {
+    "idea": 1,
+    "payment_user": 10,
+    "payment_intent_id": "pi_1IDaWVF2Gy9eFZtoa3HrIq6u"
+  }
+},
+{
+  "model": "ideas.payment_intent",
+  "pk": 37,
+  "fields": {
+    "idea": 1,
+    "payment_user": 10,
+    "payment_intent_id": "pi_1IDaxVF2Gy9eFZtozK9lKI5R"
+  }
+},
+{
+  "model": "ideas.payment_intent",
+  "pk": 38,
+  "fields": {
+    "idea": 1,
+    "payment_user": 10,
+    "payment_intent_id": "pi_1IDbCEF2Gy9eFZtoOUF9A40p"
+  }
+},
+{
+  "model": "ideas.payment_intent",
+  "pk": 39,
+  "fields": {
+    "idea": 1,
+    "payment_user": 10,
+    "payment_intent_id": "pi_1IDbClF2Gy9eFZtoMW9SWCbS"
+  }
+},
+{
+  "model": "ideas.payment_intent",
+  "pk": 40,
+  "fields": {
+    "idea": 1,
+    "payment_user": 10,
+    "payment_intent_id": "pi_1IDbDJF2Gy9eFZto2Y8q3N7m"
+  }
+},
+{
+  "model": "ideas.payment_intent",
+  "pk": 55,
+  "fields": {
+    "idea": 4,
+    "payment_user": 10,
+    "payment_intent_id": "pi_1IKWWPF2Gy9eFZtoOb5ZTIhO"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2020-10-02T03:32:32.892Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "vitor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2020-10-14T01:12:38.439Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "vitor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Phone\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2020-10-14T01:12:51.435Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "admin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2020-10-14T01:15:56.939Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "vitor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Phone\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2020-10-14T01:16:14.166Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "admin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Phone\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2020-10-14T02:33:46.762Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "6",
+    "object_repr": "parmenides",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2020-10-14T02:33:46.815Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "5",
+    "object_repr": "socrates",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2020-10-14T02:33:46.848Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "4",
+    "object_repr": "aristotle",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2020-10-14T02:33:46.873Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "3",
+    "object_repr": "pythagoras",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2020-10-14T02:47:25.760Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "7",
+    "object_repr": "pythagoras",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2020-10-15T01:32:50.470Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "13",
+    "object_repr": "thales",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2020-10-19T17:51:43.533Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "vitor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Phone\", \"Failed logins\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2020-10-20T19:20:00.657Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "admin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Phone\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2020-10-20T19:21:23.869Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "admin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2020-10-20T20:17:44.911Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "21",
+    "object_repr": "name9",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2020-10-20T20:17:44.937Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "20",
+    "object_repr": "name8",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2020-10-20T20:17:44.959Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "19",
+    "object_repr": "name7",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2020-10-20T20:17:45.008Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "18",
+    "object_repr": "name4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2020-10-20T20:17:45.033Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "17",
+    "object_repr": "name3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2020-10-20T20:17:45.074Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "16",
+    "object_repr": "name2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2020-10-20T20:17:45.106Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "15",
+    "object_repr": "name1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2020-10-20T20:20:24.862Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "22",
+    "object_repr": "name1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2020-10-20T20:21:31.761Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "14",
+    "object_repr": "thales",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2020-10-20T20:21:31.775Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "12",
+    "object_repr": "aristotle",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2020-10-20T20:21:31.780Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "9",
+    "object_repr": "parmenides",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2020-10-20T20:21:31.786Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "8",
+    "object_repr": "pythagoras",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2020-10-28T22:12:06.765Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "Request object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2020-11-09T23:40:31.067Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "Request object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2020-11-18T23:41:54.134Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "1: Idea for request 4: Book of my phylosophy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2020-11-18T23:43:56.448Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "1: Idea for request 4: Book of my phylosophy",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Idea title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2020-11-19T00:27:29.533Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "Shared_Idea object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2020-11-19T00:29:36.647Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "Shared_Idea object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2020-11-19T00:42:46.599Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "Shared_Idea object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2020-11-19T00:48:04.496Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "Shared_Idea object (2)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2020-11-19T02:21:02.869Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "2: Idea for request 5: Something to clean our teeth",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2020-11-19T02:22:19.221Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "2: Idea for request 5: Something to clean our teeth",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Share value\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2020-11-19T02:23:54.474Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "3",
+    "object_repr": "3: Idea Shared: 2: Toothbrush",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2020-11-23T22:19:49.099Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "3",
+    "object_repr": "3: ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2021-01-13T03:56:15.584Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "3",
+    "object_repr": "3: Canon Light",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Idea title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2021-01-14T00:45:13.267Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "Stripe_Account object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2021-01-14T01:23:49.893Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "Stripe_Account object (2)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2021-01-14T01:47:28.898Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "3",
+    "object_repr": "10: socrates: acct_1I9KbR2YGOMjSn8t",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2021-01-14T01:56:39.222Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "11: plato: acct_1I9K6N2VZnNGvPuF",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2021-01-14T02:40:28.467Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "4",
+    "object_repr": "4: Encyclopedia",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Idea title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2021-01-15T05:05:41.294Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "1: 46 Dialogues",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2021-01-15T05:06:01.142Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "1: 46 Dialogues",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2021-01-15T05:06:25.498Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "2: Toothbrush",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2021-01-15T05:06:33.130Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "6",
+    "object_repr": "6: Booth",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2021-01-15T05:06:42.742Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "6",
+    "object_repr": "6: Booth",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2021-01-15T05:06:46.587Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "5",
+    "object_repr": "5: Teach students that notes things",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2021-01-15T05:06:50.073Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "4",
+    "object_repr": "4: Encyclopedia",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2021-01-15T05:06:53.430Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "3",
+    "object_repr": "3: Canon Light",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2021-01-16T20:17:39.109Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "8",
+    "object_repr": "8: Pyramidal Table",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2021-01-17T23:55:54.623Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "Payment_Intent object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2021-01-18T00:13:12.367Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "Payment_Intent object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment intent id\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2021-01-18T00:22:15.620Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "Payment_Intent object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2021-01-18T00:22:56.229Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "Payment_Intent object (2)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2021-01-18T00:32:24.234Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "7",
+    "object_repr": "Payment_Intent object (7)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2021-01-18T00:32:24.242Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "6",
+    "object_repr": "Payment_Intent object (6)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2021-01-18T00:32:24.246Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "5",
+    "object_repr": "Payment_Intent object (5)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2021-01-18T00:32:24.288Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "4",
+    "object_repr": "Payment_Intent object (4)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2021-01-18T00:32:24.291Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "3",
+    "object_repr": "Payment_Intent object (3)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2021-01-18T00:34:00.035Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "8",
+    "object_repr": "Payment_Intent object (8)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2021-01-18T00:34:04.138Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "9",
+    "object_repr": "Payment_Intent object (9)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2021-01-18T01:12:15.024Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "21",
+    "object_repr": "pi_1IAmHFF2Gy9eFZtozgLMJC6u",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2021-01-18T01:12:15.046Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "20",
+    "object_repr": "pi_1IAmFoF2Gy9eFZtoOnBZKDyP",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2021-01-18T01:12:15.051Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "19",
+    "object_repr": "pi_1IAmEVF2Gy9eFZtoSgWKWAjI",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2021-01-18T01:12:15.055Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "18",
+    "object_repr": "pi_1IAmDPF2Gy9eFZto1VdXn0Xv",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2021-01-18T01:12:15.059Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "17",
+    "object_repr": "pi_1IAmBhF2Gy9eFZto2gsLALUZ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2021-01-18T01:12:15.063Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "16",
+    "object_repr": "pi_1IAm9PF2Gy9eFZtoTq1QzhSm",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2021-01-18T01:12:15.067Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "15",
+    "object_repr": "pi_1IAm8XF2Gy9eFZtoiAk08rR0",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2021-01-18T01:12:15.070Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "14",
+    "object_repr": "pi_1IAm7DF2Gy9eFZto625kQFnM",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2021-01-18T01:12:15.074Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "13",
+    "object_repr": "pi_1IAm4RF2Gy9eFZtoFJl6potv",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2021-01-18T01:12:15.078Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "12",
+    "object_repr": "pi_1IAlseF2Gy9eFZto5su4NoDE",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2021-01-18T01:12:15.082Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "11",
+    "object_repr": "pi_1IAliQF2Gy9eFZtobR5rJfvV",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2021-01-18T01:12:15.398Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "pi_1IAlhRF2Gy9eFZto7QKPrz7N",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2021-01-18T01:26:22.276Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "5",
+    "object_repr": "5: Idea Shared: 4: Encyclopedia",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2021-01-18T01:26:22.314Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "4",
+    "object_repr": "4: Idea Shared: 4: Encyclopedia",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2021-01-18T01:26:22.317Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "3",
+    "object_repr": "3: Idea Shared: 2: Toothbrush",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2021-01-18T01:26:22.320Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "2: Idea Shared: 1: 46 Dialogues",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2021-01-18T01:26:29.260Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "31",
+    "object_repr": "pi_1IAmVGF2Gy9eFZtoEjPxGjXC",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2021-01-18T01:26:29.312Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "30",
+    "object_repr": "pi_1IAmUNF2Gy9eFZtoJcymd4rP",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2021-01-18T01:26:29.316Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "29",
+    "object_repr": "pi_1IAmTCF2Gy9eFZtonOC8HZc7",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2021-01-18T01:26:29.319Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "28",
+    "object_repr": "pi_1IAmRCF2Gy9eFZtoSRz98Jcp",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2021-01-18T01:26:29.323Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "27",
+    "object_repr": "pi_1IAmPsF2Gy9eFZtojzMSiThh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2021-01-18T01:26:29.327Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "26",
+    "object_repr": "pi_1IAmOPF2Gy9eFZtoNBtXqP3J",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2021-01-18T01:26:29.331Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "25",
+    "object_repr": "pi_1IAmMgF2Gy9eFZtoniDrUAGV",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2021-01-18T01:26:29.334Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "24",
+    "object_repr": "pi_1IAmLSF2Gy9eFZtow7L200YK",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2021-01-18T01:26:29.337Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "23",
+    "object_repr": "pi_1IAmJUF2Gy9eFZtobYtQQXUO",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2021-01-18T01:26:29.340Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "22",
+    "object_repr": "pi_1IAmIhF2Gy9eFZtoq6v87y9W",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2021-01-18T01:33:37.097Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "1: 46 Dialogues",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2021-01-18T01:33:42.682Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "2: Toothbrush",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2021-01-18T01:33:48.056Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "3",
+    "object_repr": "3: Canon Light",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2021-01-18T01:34:18.242Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "1: 46 Dialogues",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Share value\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2021-01-18T01:35:13.694Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "1: 46 Dialogues",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2021-01-18T01:37:24.871Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "6",
+    "object_repr": "6: Booth",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2021-01-18T01:37:30.510Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "7",
+    "object_repr": "7: Idea Shared: 1: 46 Dialogues",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2021-01-18T01:37:30.605Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "6",
+    "object_repr": "6: Idea Shared: 4: Encyclopedia",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2021-01-18T01:37:40.976Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "7",
+    "object_repr": "7: Pyramidal Table",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2021-01-18T01:37:43.462Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "6",
+    "object_repr": "6: Booth",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2021-01-18T01:37:45.887Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "5",
+    "object_repr": "5: Teach students that notes things",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2021-01-18T01:37:48.017Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "4",
+    "object_repr": "4: Encyclopedia",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2021-01-18T01:37:50.304Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "3",
+    "object_repr": "3: Canon Light",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2021-01-18T01:37:53.309Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "2: Toothbrush",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2021-01-18T01:37:55.435Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "1: 46 Dialogues",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2021-01-18T21:48:47.389Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "9",
+    "object_repr": "9: Idea Shared: 1: 46 Dialogues",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2021-01-18T21:48:47.603Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "8",
+    "object_repr": "8: Idea Shared: 4: Encyclopedia",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2021-01-18T21:51:14.023Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "1: 46 Dialogues",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2021-01-18T21:51:19.963Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "4",
+    "object_repr": "4: Encyclopedia",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2021-01-19T22:55:35.920Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "12",
+    "object_repr": "12: pythagoras",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2021-01-19T23:20:50.889Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "6",
+    "object_repr": "13: pythagoras: acct_1IBT6t2Z26tAB1PI",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2021-01-19T23:24:49.425Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "13",
+    "object_repr": "13: pythagoras",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2021-01-20T00:32:26.571Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "7",
+    "object_repr": "14: pythagoras: acct_1IBU6G2YdOR10tEx",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2021-01-20T00:32:32.479Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "14",
+    "object_repr": "14: pythagoras",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2021-01-20T00:36:04.908Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "15",
+    "object_repr": "15: pythagoras",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2021-01-20T02:32:47.401Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "6",
+    "object_repr": "16: pythagoras",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Customer id\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2021-01-20T02:50:48.345Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "5",
+    "object_repr": "11: plato",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Stripe id\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2021-01-20T02:50:52.178Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "4",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Stripe id\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2021-01-24T20:45:35.562Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "11",
+    "object_repr": "11: plato",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\", \"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2021-01-24T20:49:28.279Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "6",
+    "object_repr": "16: pythagoras",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2021-01-24T20:49:28.283Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "5",
+    "object_repr": "11: plato",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2021-01-24T20:49:28.287Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "4",
+    "object_repr": "10: socrates",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2021-01-24T20:54:26.283Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "7",
+    "object_repr": "10: socrates",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2021-01-24T20:54:30.335Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "8",
+    "object_repr": "11: plato",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2021-01-24T20:54:34.224Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "9",
+    "object_repr": "16: pythagoras",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2021-01-24T21:52:39.244Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\", \"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2021-01-24T22:02:07.201Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2021-01-24T22:03:14.999Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\", \"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2021-01-24T22:11:47.378Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\", \"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2021-01-24T22:13:09.709Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2021-01-24T22:13:32.947Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\", \"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2021-01-24T22:16:07.956Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\", \"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2021-01-24T22:19:45.869Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\", \"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2021-01-24T22:22:31.728Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2021-01-24T22:24:22.624Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2021-01-24T22:35:47.850Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\", \"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2021-01-24T22:36:20.183Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\", \"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2021-01-24T22:37:32.372Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2021-01-24T22:39:34.349Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2021-01-24T22:40:36.444Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2021-01-24T22:45:18.706Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2021-01-24T22:52:54.609Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2021-01-24T22:53:37.173Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\", \"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2021-01-24T22:56:25.213Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2021-01-24T22:57:03.013Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2021-01-24T22:59:20.246Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\", \"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2021-01-24T22:59:48.364Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\", \"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2021-01-24T23:04:51.805Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\", \"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2021-01-24T23:07:07.602Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2021-01-24T23:53:05.527Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\", \"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2021-01-24T23:53:46.987Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\", \"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2021-01-25T12:28:21.090Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\", \"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2021-01-25T12:28:30.365Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "7",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2021-01-25T13:02:42.459Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "8",
+    "object_repr": "11: plato",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Stripe id\", \"Customer id\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2021-01-25T13:02:56.416Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "11",
+    "object_repr": "11: plato",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\", \"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2021-01-25T13:07:53.172Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2021-01-25T13:08:00.114Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "7",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2021-01-25T13:11:02.867Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2021-01-25T13:13:24.814Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2021-01-25T13:17:30.945Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2021-01-25T13:18:43.395Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 162,
+  "fields": {
+    "action_time": "2021-01-25T13:36:20.984Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "7",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Customer id\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 163,
+  "fields": {
+    "action_time": "2021-01-25T13:38:37.993Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "7",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Customer id\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 164,
+  "fields": {
+    "action_time": "2021-01-25T13:38:54.046Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 165,
+  "fields": {
+    "action_time": "2021-01-25T13:45:44.186Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 166,
+  "fields": {
+    "action_time": "2021-01-25T13:45:48.408Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "7",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Customer id\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 167,
+  "fields": {
+    "action_time": "2021-01-25T13:52:14.994Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "7",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Customer id\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 168,
+  "fields": {
+    "action_time": "2021-01-25T13:52:20.620Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 169,
+  "fields": {
+    "action_time": "2021-01-25T13:52:48.208Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 170,
+  "fields": {
+    "action_time": "2021-01-25T13:52:58.370Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "7",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Customer id\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 171,
+  "fields": {
+    "action_time": "2021-01-25T20:14:16.686Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "12",
+    "object_repr": "12: Idea Shared: 5: Teach students that notes things",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 172,
+  "fields": {
+    "action_time": "2021-01-25T20:14:16.711Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "11",
+    "object_repr": "11: Idea Shared: 4: Encyclopedia",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 173,
+  "fields": {
+    "action_time": "2021-01-25T20:14:16.714Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: Idea Shared: 1: 46 Dialogues",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 174,
+  "fields": {
+    "action_time": "2021-01-25T20:14:47.257Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "1: 46 Dialogues",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 175,
+  "fields": {
+    "action_time": "2021-01-25T20:14:52.060Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "4",
+    "object_repr": "4: Encyclopedia",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 176,
+  "fields": {
+    "action_time": "2021-01-25T20:14:57.644Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "5",
+    "object_repr": "5: Teach students that notes things",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 177,
+  "fields": {
+    "action_time": "2021-01-25T20:20:49.257Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "1: 46 Dialogues",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 178,
+  "fields": {
+    "action_time": "2021-01-25T20:20:52.858Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "4",
+    "object_repr": "4: Encyclopedia",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 179,
+  "fields": {
+    "action_time": "2021-01-25T20:20:55.595Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "5",
+    "object_repr": "5: Teach students that notes things",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 180,
+  "fields": {
+    "action_time": "2021-01-25T20:21:01.535Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "15",
+    "object_repr": "15: Idea Shared: 5: Teach students that notes things",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 181,
+  "fields": {
+    "action_time": "2021-01-25T20:21:01.543Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "14",
+    "object_repr": "14: Idea Shared: 4: Encyclopedia",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 182,
+  "fields": {
+    "action_time": "2021-01-25T20:21:01.601Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "13",
+    "object_repr": "13: Idea Shared: 1: 46 Dialogues",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 183,
+  "fields": {
+    "action_time": "2021-01-25T20:36:49.249Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "18",
+    "object_repr": "18: Idea Shared: 5: Teach students that notes things",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 184,
+  "fields": {
+    "action_time": "2021-01-25T20:36:49.310Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "17",
+    "object_repr": "17: Idea Shared: 4: Encyclopedia",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 185,
+  "fields": {
+    "action_time": "2021-01-25T20:36:49.378Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "16",
+    "object_repr": "16: Idea Shared: 1: 46 Dialogues",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 186,
+  "fields": {
+    "action_time": "2021-01-25T20:37:00.248Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "1: 46 Dialogues",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 187,
+  "fields": {
+    "action_time": "2021-01-25T20:37:03.995Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "4",
+    "object_repr": "4: Encyclopedia",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 188,
+  "fields": {
+    "action_time": "2021-01-25T20:37:07Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "5",
+    "object_repr": "5: Teach students that notes things",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 189,
+  "fields": {
+    "action_time": "2021-01-25T20:40:44.256Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "1: 46 Dialogues",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 190,
+  "fields": {
+    "action_time": "2021-01-25T20:40:47.227Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "4",
+    "object_repr": "4: Encyclopedia",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 191,
+  "fields": {
+    "action_time": "2021-01-25T20:40:49.897Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "5",
+    "object_repr": "5: Teach students that notes things",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 192,
+  "fields": {
+    "action_time": "2021-01-25T20:41:02.624Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "22",
+    "object_repr": "22: Idea Shared: 5: Teach students that notes things",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 193,
+  "fields": {
+    "action_time": "2021-01-25T20:41:02.628Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "21",
+    "object_repr": "21: Idea Shared: 4: Encyclopedia",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 194,
+  "fields": {
+    "action_time": "2021-01-25T20:41:02.632Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "20",
+    "object_repr": "20: Idea Shared: 1: 46 Dialogues",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 195,
+  "fields": {
+    "action_time": "2021-01-25T20:41:02.950Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "19",
+    "object_repr": "19: Idea Shared: 1: 46 Dialogues",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 196,
+  "fields": {
+    "action_time": "2021-01-25T20:50:02.966Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "11",
+    "object_repr": "11: plato",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Last name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 197,
+  "fields": {
+    "action_time": "2021-01-25T20:50:10.726Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: socrates",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Last name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 198,
+  "fields": {
+    "action_time": "2021-01-25T20:50:38.091Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "16",
+    "object_repr": "16: pythagoras",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Last name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 199,
+  "fields": {
+    "action_time": "2021-02-04T04:39:32.394Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "3",
+    "object_repr": "3: New law for the senate",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 200,
+  "fields": {
+    "action_time": "2021-02-13T16:54:23.937Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "17",
+    "object_repr": "17: parmenides",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 201,
+  "fields": {
+    "action_time": "2021-02-15T17:28:12.132Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: Need a hero for my Book",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 202,
+  "fields": {
+    "action_time": "2021-02-15T17:28:30.910Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "13",
+    "object_repr": "13: Difference on Shadows",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 203,
+  "fields": {
+    "action_time": "2021-02-15T17:28:30.961Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "12",
+    "object_repr": "12: Difference on Shadows",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 204,
+  "fields": {
+    "action_time": "2021-02-15T17:29:37.741Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "25",
+    "object_repr": "25: Idea Shared: 10: Shadows on distance",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 205,
+  "fields": {
+    "action_time": "2021-02-15T17:29:54.449Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "13",
+    "object_repr": "20: homer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Stripe id\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 206,
+  "fields": {
+    "action_time": "2021-02-15T17:30:18.585Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "20",
+    "object_repr": "20: homer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Banking accept\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 207,
+  "fields": {
+    "action_time": "2021-02-15T17:43:01.679Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "15",
+    "object_repr": "15: Difference on Shadows",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 208,
+  "fields": {
+    "action_time": "2021-02-15T17:43:19.695Z",
+    "user": 2,
+    "content_type": null,
+    "object_id": "10",
+    "object_repr": "10: Shadows on distance",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "01kzk8ekdzuzwbob23nrs4hdonsfv4y2",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAGhgIu3XsGMjBUqoYmpV0Z765NutDtf-_9l4i0rTVuvSxxYnEWoMTpd0yUH6XthO_UbrPMc1uXKcldkQft8jpzeV4O9--gUq_f2httwsBAGQbEYNGB4eCt0okhaKUQjCMK4HxQaEZKMFKxqJzGwobE-wPATjai:1kgbn5:hK7kzKxCNH5Ic6kFxwDTlsq6BwNtyxS9jsy-jLAniZs",
+    "expire_date": "2020-12-05T22:55:35.575Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3qsgxsvatig4wfbrz9yzvjbrhbhbyuis",
+  "fields": {
+    "session_data": "e30:1kSWE6:JP9O7IPcqJmhDiaRR6Kyxqkj9sserKmHNSnuBubOf6g",
+    "expire_date": "2020-10-28T02:09:14.438Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4s7aa71wf8dypmlc67fsha47nl7jokdb",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAYJIBL956BzDBTqRqalHbVeHdt0oVu_3vvbyrjutS8dpnzyOqibFSn35GwPKXthB_Y7pMuU1vmkfSu6IN2fZtYXtfD_Tuo2Ou3Pgv7AIAILhVxYISNdykGMImG4IwLMEQ2QEl8FI7Wkk8kiB7IFK_eH_dWN88:1lB3v3:YiVb8YSWpm_G0jhKF8d907BE7ktHegcsAoBmhUuR-BM",
+    "expire_date": "2021-02-27T23:01:41.526Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7i7rb2o37d9g6j6jbg7b0rgfcqwtnxbm",
+  "fields": {
+    "session_data": ".eJxVjLEOwjAMRP8lM4rspIiEkZ1viBzbJQWUSk07Vfw7rdQBxrv37laTaJlLWppOaRBzNc6cfrtM_NK6A3lSfYyWxzpPQ7a7Yg_a7H0Ufd8O9--gUCvbGhyEiBgj-4gxnIE6iU4Utwzs0Gnve1RRDcQB0MHFA3ruUMiDz-bzBbSkNvI:1kKwvk:gzn4tSzhp_ByUNwDSUU2aojIsAERr0xYdni2jlgzNxg",
+    "expire_date": "2020-10-07T05:03:00.504Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7l0hdozh22m2hfin3hv4cgityfhtmjou",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAGhgIu3XsGMjBUqoYmpV0Z765NutDtf-_9l4i0rTVuvSxxYnEWoMTpd0yUH6XthO_UbrPMc1uXKcldkQft8jpzeV4O9--gUq_f2httwsBAGQbEYNGB4eCt0okhaKUQjCMK4HxQaEZKMFKxqJzGwobE-wPATjai:1kcc5g:CsMnhDTj5SCceTP4ykZ1tDA4rQOY0u4PP9ZgcG1RLA4",
+    "expire_date": "2020-11-24T22:26:16.779Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7r3iedktorueig7peudepg4nip40gl99",
+  "fields": {
+    "session_data": ".eJxVjLEOwjAMRP8lM4rspIiEkZ1viBzbJQWUSk07Vfw7rdQBxrv37laTaJlLWppOaRBzNc6cfrtM_NK6A3lSfYyWxzpPQ7a7Yg_a7H0Ufd8O9--gUCvbGhyEiBgj-4gxnIE6iU4Utwzs0Gnve1RRDcQB0MHFA3ruUMiDz-bzBbSkNvI:1kfWyt:4ge6dkYrXyfkefs9ZkM0_zO9VFP-bZjV_SEZgF02GZc",
+    "expire_date": "2020-12-02T23:35:19.401Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8n6q5stjivscx5c0jli8mmbpn64kftc3",
+  "fields": {
+    "session_data": "e30:1l1zr2:oFpjh2VUiLy7WM9ZVtr3eEcwSR2nFPJqVGXLgRe6uc4",
+    "expire_date": "2021-02-02T22:52:04.732Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "95ydzme37apvw01hc9xmx70gsgm49bj2",
+  "fields": {
+    "session_data": ".eJxVjLEOwjAMRP8lM4rspIiEkZ1viBzbJQWUSk07Vfw7rdQBxrv37laTaJlLWppOaRBzNc6cfrtM_NK6A3lSfYyWxzpPQ7a7Yg_a7H0Ufd8O9--gUCvbGhyEiBgj-4gxnIE6iU4Utwzs0Gnve1RRDcQB0MHFA3ruUMiDz-bzBbSkNvI:1kUy8D:KHjn141EffiBZjq0_kv1pHa6QdhI85361oLXfV8jIEk",
+    "expire_date": "2020-11-03T20:21:17.689Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dcgdevg92ow177i1zedppm1fpvid4z33",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgA3RcuvcMZGBAqoYmpV0Z765NutDtf-_9lwi0rTVsPS9hYnEWRonT7xgpPXLbCd-p3WaZ5rYuU5S7Ig_a5XXm_Lwc7t9BpV6_NSGjMZiSYeW0GwYG0iOUbC1YQPAafdQRnXXeRzQ5cRm5FFQZWKES7w_sYDeR:1lBicS:GPYcQXdJ5NgVzI0H0itVMfUqTVyDZ2ICQzlFWZWaiuk",
+    "expire_date": "2021-03-01T18:29:12.575Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dqkz3soylhpzy4t82pr5digyql7ncv5s",
+  "fields": {
+    "session_data": ".eJxVjLEOwjAMRP8lM4rspIiEkZ1viBzbJQWUSk07Vfw7rdQBxrv37laTaJlLWppOaRBzNc6cfrtM_NK6A3lSfYyWxzpPQ7a7Yg_a7H0Ufd8O9--gUCvbGhyEiBgj-4gxnIE6iU4Utwzs0Gnve1RRDcQB0MHFA3ruUMiDz-bzBbSkNvI:1lBeIE:P91S-BHj_xzsuAacfaq981tsgpYmkfaCU5ESKcLSnyY",
+    "expire_date": "2021-03-01T13:52:02.006Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dz7n0r4bvoxuafrb7k7y0mocg1kahio0",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllZx7-lpOcM1npt4wBypDipEHeHSCmgfTPzXiLQttaw9byEKYmzABCn3zESP3LbSbpTu82S57YuU5S7Ig_a5XVO-Xk53L-DSr1-a_KWsSintUfH4Ghg65NCC2NWDMWQc6gK-oQcKQ4EhsmPxpHNoLwW7w_36De3:1kzU4V:frRn_Ht_fsCDAN18UtE9AUCKw5WwsUKVTFDw-vX70oQ",
+    "expire_date": "2021-01-27T00:31:35.262Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "eo10z0yrnqkr4nm93npwcw64f0ub0afm",
+  "fields": {
+    "session_data": "e30:1kSWhX:Br3Te8YnSROkyI7C_in5JnIMY1TtO0N6MT9zxTmOiN8",
+    "expire_date": "2020-10-28T02:39:39.524Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "feelb04k5zlkykwixn0ozuld16x3zn0j",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSEWAldcuvcbyH1VqgaS0q6M_65NutDtmZnzMhnXpeS165wnMWczJHP4HQn5oXUjcsd6a5ZbXeaJ7KbYnXZ7baLPy-7-HRTs5VsHdZ5FKciJSRAAWNLRKwwuJuAgHIV89IkwEsCIqgCo7BSC5zia9wc6djlx:1lBfXJ:Mcfcel9WyULynPWq9N0lB3MRcUq9P4SM_xP_1QTpQR8",
+    "expire_date": "2021-03-01T15:11:41.312Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fk8uvyhevfzn03ia4ajxkf33bkbs0izv",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGllZx7-lpOcM1npt4wBypDipEHeHSCmgfTPzXiLQttaw9byEKYmzABCn3zESP3LbSbpTu82S57YuU5S7Ig_a5XVO-Xk53L-DSr1-a_KWsSintUfH4Ghg65NCC2NWDMWQc6gK-oQcKQ4EhsmPxpHNoLwW7w_36De3:1knBLj:KzO2ry7qKNM0YjjVtsoGfgAbR-W40TmoCc9i1QcBTdc",
+    "expire_date": "2020-12-24T02:06:31.963Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "g1sshe5lvyft4807g0btovtma2lwzuea",
+  "fields": {
+    "session_data": "e30:1kSWO5:ClMs3MGfxzWfEB45xS9oo6LaXzPre_SOi-Ru4DPNp4w",
+    "expire_date": "2020-10-28T02:19:33.785Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "i3qrok9gsm8k44p3qqz5j6f00pbqehuz",
+  "fields": {
+    "session_data": ".eJxVjLEOwjAMRP8lM4rspIiEkZ1viBzbJQWUSk07Vfw7rdQBxrv37laTaJlLWppOaRBzNc6cfrtM_NK6A3lSfYyWxzpPQ7a7Yg_a7H0Ufd8O9--gUCvbGhyEiBgj-4gxnIE6iU4Utwzs0Gnve1RRDcQB0MHFA3ruUMiDz-bzBbSkNvI:1l3oTE:317RTxlJlFAMibtZzKztmRYgk7CwCwdkdjH85o4ShWY",
+    "expire_date": "2021-02-07T23:07:00.399Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "i97p24sa6grwcejnzp71fedlviqvvmyi",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQRO9CHSHMx-CU6X0GBLtLcBKBZOwqyt2DJRdJNdK8N_NmPuxb9nuj1S_IrmwQ7PJbxgBPKgfBRyj3yqGWbV0iPxR-0sbnivS6ne7fQQ4t97VTQBBlIjNKDUZAcpDQKEVkNWoRJoQ0kpxQ2R6ua4CISltMQg6Ofb4vQDjQ:1l3nsi:56HA0NJ3u1mKK0yIlrW0h0ZXM9GMHPO_d7vE6-8eZUo",
+    "expire_date": "2021-02-07T22:29:16.744Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "j3yff7ooafrwcpyfyrpo3xm834020pyu",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAGhgIu3XsGMjBUqoYmpV0Z765NutDtf-_9l4i0rTVuvSxxYnEWoMTpd0yUH6XthO_UbrPMc1uXKcldkQft8jpzeV4O9--gUq_f2httwsBAGQbEYNGB4eCt0okhaKUQjCMK4HxQaEZKMFKxqJzGwobE-wPATjai:1kUbZe:vSJHJ6J9F2BhrdzkBwk25HRz8yWTLj6gAIe9wmYNKfI",
+    "expire_date": "2020-11-02T20:16:06.991Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jzw1kupjq9zeuhs4cuwfhusftee0woqs",
+  "fields": {
+    "session_data": ".eJxVjEsOAiEQBe_C2pBukJ9L956BNNDKqIFkmFkZ766TzEK3r6reS0RalxrXwXOcijgJBHH4HRPlB7eNlDu1W5e5t2WektwUudMhL73w87y7fweVRv3WIbjsggH2KReFhjWjBxMMIYK1jh3oazg6sCqhZkXecsgeTVFgMmjx_gDb5Ta4:1lBhw9:3Nvk1KSx_7whN-ntFAnyXpHUwpbQqBC7mBAmtt7ZxxU",
+    "expire_date": "2021-03-01T17:45:29.462Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kr0mstoxx7w7rxsxk8nz0vbsavwxj7p6",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln2xvhDSZ8zWOvdNQmgRIqTCnF3iJQC2jcz76UybuuQtyZLHlldlDXq9DsWpIdMO-E7TrdZ0zyty1j0ruiDNt3PLM_r4f4dDNiGbx1SrBQSOoaK4DBILYEMd5LAG7CRrfNIHUiEIvUsAEwmog_kk4tGvT8Xzjg6:1mGBQ7:tnYBeaGVx_EqWEysh1EIZHxmHBGD4anAdmTu51VE9L8",
+    "expire_date": "2021-09-01T02:35:11.138Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "si6xdenhjasvk4pflffw3lvfunrsroyv",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAGhgIu3XsGMjBUqoYmpV0Z765NutDtf-_9l4i0rTVuvSxxYnEWoMTpd0yUH6XthO_UbrPMc1uXKcldkQft8jpzeV4O9--gUq_f2httwsBAGQbEYNGB4eCt0okhaKUQjCMK4HxQaEZKMFKxqJzGwobE-wPATjai:1kqOOU:I0HgazOt3Ztv9aJ6U5WGtgcqu5Y5oVRiUcls5MTgMX8",
+    "expire_date": "2021-01-01T22:38:38.611Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vgyiqibner3zz8308uub4r0qzrogf4gn",
+  "fields": {
+    "session_data": "e30:1kSWSc:Kb2j-z5OrScCs4bpeYEicvqM55pIhD8y4FkQuvNm0v8",
+    "expire_date": "2020-10-28T02:24:14.395Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "w658vzft42jrygo0pjqc17qkt4zx7h8h",
+  "fields": {
+    "session_data": ".eJxVjLEOwjAMRP8lM4rspIiEkZ1viBzbJQWUSk07Vfw7rdQBxrv37laTaJlLWppOaRBzNc6cfrtM_NK6A3lSfYyWxzpPQ7a7Yg_a7H0Ufd8O9--gUCvbGhyEiBgj-4gxnIE6iU4Utwzs0Gnve1RRDcQB0MHFA3ruUMiDz-bzBbSkNvI:1l1cN8:3GOCl8sYgkovJ76D7WyRCOMcSHMUckKfr16oJQkZqvE",
+    "expire_date": "2021-02-01T21:47:38.281Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "x2o2v5xkl49k00e35dfy7xs04br8sj0c",
+  "fields": {
+    "session_data": ".eJxVjLEOwjAMRP8lM4rspIiEkZ1viBzbJQWUSk07Vfw7rdQBxrv37laTaJlLWppOaRBzNc6cfrtM_NK6A3lSfYyWxzpPQ7a7Yg_a7H0Ufd8O9--gUCvbGhyEiBgj-4gxnIE6iU4Utwzs0Gnve1RRDcQB0MHFA3ruUMiDz-bzBbSkNvI:1kUXfM:XfY8_wi00DThr2cPdhppcCt8r5hNHDm8h36IiM8Rfoo",
+    "expire_date": "2020-11-02T16:05:44.901Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zfvbwlh4txsxnrs8lkid9sxf1sfsv23e",
+  "fields": {
+    "session_data": ".eJxVjLEOwjAMRP8lM4rspIiEkZ1viBzbJQWUSk07Vfw7rdQBxrv37laTaJlLWppOaRBzNc6cfrtM_NK6A3lSfYyWxzpPQ7a7Yg_a7H0Ufd8O9--gUCvbGhyEiBgj-4gxnIE6iU4Utwzs0Gnve1RRDcQB0MHFA3ruUMiDz-bzBbSkNvI:1kzU4g:I5Rq69RdTMdV3uSl7ORSQlcOnWWEr8HZ6P-3FvkwIPc",
+    "expire_date": "2021-01-27T00:31:46.261Z"
+  }
+}
+]
